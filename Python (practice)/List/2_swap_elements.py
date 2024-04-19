@@ -1,3 +1,5 @@
+# swapping elements of given positions.
+
 def swap(list1,n,a,b):
 
     t=list1[a-1]
