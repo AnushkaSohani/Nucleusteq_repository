@@ -1,0 +1,2047 @@
+INFO 2024-05-27 12:58:29,119 autoreload 20512 18968 Watching for file changes with StatReloader
+INFO 2024-05-27 12:58:34,865 views 20512 4720 Home view accessed
+INFO 2024-05-27 12:58:34,895 basehttp 20512 4720 "GET / HTTP/1.1" 200 2647
+WARNING 2024-05-27 12:58:34,948 log 20512 4720 Not Found: /favicon.ico
+WARNING 2024-05-27 12:58:34,963 basehttp 20512 4720 "GET /favicon.ico HTTP/1.1" 404 5483
+INFO 2024-05-27 13:05:38,072 basehttp 20512 19060 "GET /register/ HTTP/1.1" 200 4130
+INFO 2024-05-27 13:06:29,871 views 20512 6932 User registered successfully
+INFO 2024-05-27 13:06:29,871 basehttp 20512 6932 "POST /register/ HTTP/1.1" 302 0
+INFO 2024-05-27 13:06:29,905 basehttp 20512 6932 "GET /register/ HTTP/1.1" 200 4279
+INFO 2024-05-27 13:06:31,494 basehttp 20512 6932 "GET /register/ HTTP/1.1" 200 4130
+INFO 2024-05-27 13:06:33,254 basehttp 20512 6932 "GET /login/ HTTP/1.1" 200 2000
+INFO 2024-05-27 13:06:36,770 views 20512 6932 User anushka_sohani logged in successfully
+INFO 2024-05-27 13:06:36,770 basehttp 20512 6932 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-05-27 13:06:36,852 basehttp 20512 6932 "GET /admin_dashboard/ HTTP/1.1" 200 29283
+INFO 2024-05-27 13:06:36,912 views 20512 6932 Project data retrieved
+INFO 2024-05-27 13:06:36,913 basehttp 20512 6932 "GET /api/projects/ HTTP/1.1" 200 835
+INFO 2024-05-27 13:06:36,915 views 20512 14600 Employee data retrieved
+INFO 2024-05-27 13:06:36,915 basehttp 20512 14600 "GET /api/employees/ HTTP/1.1" 200 1027
+INFO 2024-05-27 13:09:16,802 views 20512 17788 Employee form submitted and saved successfully
+INFO 2024-05-27 13:09:16,803 basehttp 20512 17788 "POST /admin_dashboard/ HTTP/1.1" 302 0
+INFO 2024-05-27 13:09:16,831 basehttp 20512 17788 "GET /admin_dashboard/ HTTP/1.1" 200 29373
+INFO 2024-05-27 13:09:16,865 views 20512 17788 Project data retrieved
+INFO 2024-05-27 13:09:16,865 basehttp 20512 17788 "GET /api/projects/ HTTP/1.1" 200 835
+INFO 2024-05-27 13:09:16,870 views 20512 14072 Employee data retrieved
+INFO 2024-05-27 13:09:16,871 basehttp 20512 14072 "GET /api/employees/ HTTP/1.1" 200 1179
+INFO 2024-05-27 13:10:06,199 views 20512 14072 Employee data retrieved
+INFO 2024-05-27 13:10:06,199 basehttp 20512 14072 "GET /api/employees/ HTTP/1.1" 200 1179
+INFO 2024-05-27 13:12:53,505 basehttp 20512 14072 "GET /register/ HTTP/1.1" 200 4130
+WARNING 2024-05-27 13:14:32,041 views 20512 14072 User registration failed: <ul class="errorlist"><li>password2<ul class="errorlist"><li>The two password fields didn’t match.</li></ul></li></ul>
+INFO 2024-05-27 13:14:32,041 basehttp 20512 14072 "POST /register/ HTTP/1.1" 200 4286
+WARNING 2024-05-27 13:14:43,897 views 20512 14072 User registration failed: <ul class="errorlist"><li>password2<ul class="errorlist"><li>The password is too similar to the email.</li></ul></li></ul>
+INFO 2024-05-27 13:14:43,904 basehttp 20512 14072 "POST /register/ HTTP/1.1" 200 4288
+WARNING 2024-05-27 13:15:01,514 views 20512 14072 User registration failed: <ul class="errorlist"><li>password2<ul class="errorlist"><li>The password is too similar to the email.</li></ul></li></ul>
+INFO 2024-05-27 13:15:01,526 basehttp 20512 14072 "POST /register/ HTTP/1.1" 200 4288
+WARNING 2024-05-27 13:15:15,167 views 20512 14072 User registration failed: <ul class="errorlist"><li>password2<ul class="errorlist"><li>The two password fields didn’t match.</li></ul></li></ul>
+INFO 2024-05-27 13:15:15,178 basehttp 20512 14072 "POST /register/ HTTP/1.1" 200 4286
+WARNING 2024-05-27 13:15:35,002 views 20512 14072 User registration failed: <ul class="errorlist"><li>password2<ul class="errorlist"><li>The password is too similar to the email.</li></ul></li></ul>
+INFO 2024-05-27 13:15:35,003 basehttp 20512 14072 "POST /register/ HTTP/1.1" 200 4288
+INFO 2024-05-27 13:15:52,981 views 20512 14072 User registered successfully
+INFO 2024-05-27 13:15:52,981 basehttp 20512 14072 "POST /register/ HTTP/1.1" 302 0
+INFO 2024-05-27 13:15:53,014 basehttp 20512 14072 "GET /register/ HTTP/1.1" 200 4279
+INFO 2024-05-27 13:15:56,867 basehttp 20512 14072 "GET /register/ HTTP/1.1" 200 4130
+INFO 2024-05-27 13:15:58,476 basehttp 20512 14072 "GET /login/ HTTP/1.1" 200 2000
+INFO 2024-05-27 13:16:01,661 views 20512 14072 User anushka_sohani logged in successfully
+INFO 2024-05-27 13:16:01,677 basehttp 20512 14072 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-05-27 13:16:01,711 basehttp 20512 14072 "GET /admin_dashboard/ HTTP/1.1" 200 29373
+INFO 2024-05-27 13:16:01,760 views 20512 14072 Project data retrieved
+INFO 2024-05-27 13:16:01,764 basehttp 20512 14072 "GET /api/projects/ HTTP/1.1" 200 835
+INFO 2024-05-27 13:16:01,766 views 20512 18672 Employee data retrieved
+INFO 2024-05-27 13:16:01,767 basehttp 20512 18672 "GET /api/employees/ HTTP/1.1" 200 1179
+INFO 2024-05-27 13:16:03,679 views 20512 18672 Project data retrieved
+INFO 2024-05-27 13:16:03,679 basehttp 20512 18672 "GET /api/projects/ HTTP/1.1" 200 835
+INFO 2024-05-27 13:20:34,617 views 20512 18672 Employee form submitted and saved successfully
+INFO 2024-05-27 13:20:34,617 basehttp 20512 18672 "POST /admin_dashboard/ HTTP/1.1" 302 0
+INFO 2024-05-27 13:20:34,635 basehttp 20512 18672 "GET /admin_dashboard/ HTTP/1.1" 200 29466
+INFO 2024-05-27 13:20:34,684 views 20512 18672 Project data retrieved
+INFO 2024-05-27 13:20:34,685 basehttp 20512 18672 "GET /api/projects/ HTTP/1.1" 200 835
+INFO 2024-05-27 13:20:34,686 views 20512 14072 Employee data retrieved
+INFO 2024-05-27 13:20:34,687 basehttp 20512 14072 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:20:36,320 views 20512 14072 Employee data retrieved
+INFO 2024-05-27 13:20:36,320 basehttp 20512 14072 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:21:50,752 views 20512 14072 Project form submitted and saved successfully
+INFO 2024-05-27 13:21:50,753 basehttp 20512 14072 "POST /admin_dashboard/ HTTP/1.1" 302 0
+INFO 2024-05-27 13:21:50,776 basehttp 20512 14072 "GET /admin_dashboard/ HTTP/1.1" 200 29466
+INFO 2024-05-27 13:21:50,809 views 20512 14072 Project data retrieved
+INFO 2024-05-27 13:21:50,811 basehttp 20512 14072 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:21:50,812 views 20512 18672 Employee data retrieved
+INFO 2024-05-27 13:21:50,813 basehttp 20512 18672 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:21:51,743 views 20512 18672 Employee data retrieved
+INFO 2024-05-27 13:21:51,743 basehttp 20512 18672 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:21:53,943 views 20512 18672 Project data retrieved
+INFO 2024-05-27 13:21:53,943 basehttp 20512 18672 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:22:26,309 views 20512 18672 Employee data retrieved
+INFO 2024-05-27 13:22:26,313 basehttp 20512 18672 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:22:32,246 views 20512 18672 Project data retrieved
+INFO 2024-05-27 13:22:32,246 basehttp 20512 18672 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:22:33,381 views 20512 18672 Employee data retrieved
+INFO 2024-05-27 13:22:33,381 basehttp 20512 18672 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:22:37,563 views 20512 18672 Project 3 assigned to employee 22 successfully
+INFO 2024-05-27 13:22:37,563 basehttp 20512 18672 "POST /assign_project/ HTTP/1.1" 200 74
+INFO 2024-05-27 13:22:47,628 views 20512 18672 Project unassigned from employee 1 successfully
+INFO 2024-05-27 13:22:47,629 basehttp 20512 18672 "POST /unassign_project/ HTTP/1.1" 200 78
+INFO 2024-05-27 13:23:08,435 views 20512 18672 Employee data retrieved
+INFO 2024-05-27 13:23:08,449 basehttp 20512 18672 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:23:09,640 views 20512 18672 Project data retrieved
+INFO 2024-05-27 13:23:09,640 basehttp 20512 18672 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:23:24,784 views 20512 18672 Employee data retrieved
+INFO 2024-05-27 13:23:24,784 basehttp 20512 18672 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:23:26,410 views 20512 18672 Project data retrieved
+INFO 2024-05-27 13:23:26,411 basehttp 20512 18672 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:23:39,482 autoreload 7476 13140 Watching for file changes with StatReloader
+INFO 2024-05-27 13:23:40,837 views 7476 8764 Home view accessed
+INFO 2024-05-27 13:23:40,847 basehttp 7476 8764 "GET / HTTP/1.1" 200 2647
+INFO 2024-05-27 13:23:44,184 basehttp 7476 8764 "GET /login/ HTTP/1.1" 200 2000
+INFO 2024-05-27 13:23:55,083 views 7476 8764 User akash_singh logged in successfully
+INFO 2024-05-27 13:23:55,085 basehttp 7476 8764 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-05-27 13:23:55,151 basehttp 7476 8764 "GET /manager_dashboard/ HTTP/1.1" 200 14293
+INFO 2024-05-27 13:23:56,584 views 7476 8764 Employee data retrieved
+INFO 2024-05-27 13:23:56,584 basehttp 7476 8764 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:23:59,750 views 7476 8764 Project data retrieved
+INFO 2024-05-27 13:23:59,750 basehttp 7476 8764 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:24:05,547 views 7476 8764 Filtered employee data retrieved
+INFO 2024-05-27 13:24:05,548 basehttp 7476 8764 "GET /api/filter_employees/?skills=&unassigned=true HTTP/1.1" 200 298
+INFO 2024-05-27 13:24:17,944 views 7476 8764 Filtered employee data retrieved
+INFO 2024-05-27 13:24:17,944 basehttp 7476 8764 "GET /api/filter_employees/?skills=Flask&unassigned=true HTTP/1.1" 200 152
+INFO 2024-05-27 13:24:20,616 views 7476 8764 Filtered employee data retrieved
+INFO 2024-05-27 13:24:20,617 basehttp 7476 8764 "GET /api/filter_employees/?skills=Flask&unassigned=false HTTP/1.1" 200 291
+INFO 2024-05-27 13:24:27,976 views 7476 8764 Employee data retrieved
+INFO 2024-05-27 13:24:27,976 basehttp 7476 8764 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:24:59,623 views 7476 8764 Employee data retrieved
+INFO 2024-05-27 13:24:59,624 basehttp 7476 8764 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:25:00,305 views 7476 8764 Project data retrieved
+INFO 2024-05-27 13:25:00,305 basehttp 7476 8764 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:25:09,727 views 7476 8764 Project data retrieved
+INFO 2024-05-27 13:25:09,727 basehttp 7476 8764 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:25:10,360 views 7476 8764 Employee data retrieved
+INFO 2024-05-27 13:25:10,360 basehttp 7476 8764 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:25:18,140 views 7476 8764 Project data retrieved
+INFO 2024-05-27 13:25:18,140 basehttp 7476 8764 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:25:42,880 views 7476 8764 Request form submitted and saved successfully
+INFO 2024-05-27 13:25:42,880 basehttp 7476 8764 "POST /api/request_employees/ HTTP/1.1" 302 0
+INFO 2024-05-27 13:25:42,914 basehttp 7476 8764 "GET /manager_dashboard/ HTTP/1.1" 200 14293
+INFO 2024-05-27 13:25:45,081 basehttp 7476 8764 "GET /admin_dashboard/ HTTP/1.1" 200 29466
+INFO 2024-05-27 13:25:45,128 views 7476 8764 Project data retrieved
+INFO 2024-05-27 13:25:45,130 basehttp 7476 8764 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:25:45,132 views 7476 15768 Employee data retrieved
+INFO 2024-05-27 13:25:45,132 basehttp 7476 15768 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:25:47,028 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:25:47,029 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 292
+INFO 2024-05-27 13:26:23,370 views 7476 15768 Request 78 approved and EmployeeProject records created
+INFO 2024-05-27 13:26:23,370 basehttp 7476 15768 "POST /api/requests/78/approve/ HTTP/1.1" 200 67
+INFO 2024-05-27 13:26:25,555 views 7476 8764 Request data retrieved
+INFO 2024-05-27 13:26:25,555 basehttp 7476 8764 "GET /api/requests/ HTTP/1.1" 200 293
+WARNING 2024-05-27 13:26:25,566 log 7476 15768 Not Found: /api/requests/78/employees/
+WARNING 2024-05-27 13:26:25,567 basehttp 7476 15768 "GET /api/requests/78/employees/ HTTP/1.1" 404 5528
+INFO 2024-05-27 13:26:28,566 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:26:28,566 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 293
+INFO 2024-05-27 13:26:47,263 views 7476 15768 Employee data retrieved
+INFO 2024-05-27 13:26:47,264 basehttp 7476 15768 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:27:58,318 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:27:58,318 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 293
+INFO 2024-05-27 13:28:00,235 views 7476 15768 Project data retrieved
+INFO 2024-05-27 13:28:00,235 basehttp 7476 15768 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:28:00,618 views 7476 15768 Employee data retrieved
+INFO 2024-05-27 13:28:00,618 basehttp 7476 15768 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:28:00,969 views 7476 15768 Project data retrieved
+INFO 2024-05-27 13:28:00,969 basehttp 7476 15768 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:28:02,233 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:28:02,233 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 293
+INFO 2024-05-27 13:28:17,013 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:28:17,013 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 293
+INFO 2024-05-27 13:28:22,140 views 7476 15768 Project 1 assigned to employee 1 successfully
+INFO 2024-05-27 13:28:22,140 basehttp 7476 15768 "POST /assign_project/ HTTP/1.1" 200 74
+INFO 2024-05-27 13:28:47,520 views 7476 15768 Employee data retrieved
+INFO 2024-05-27 13:28:47,520 basehttp 7476 15768 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:28:47,920 views 7476 15768 Project data retrieved
+INFO 2024-05-27 13:28:47,920 basehttp 7476 15768 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:28:56,633 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:28:56,633 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 293
+INFO 2024-05-27 13:29:01,197 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:29:01,198 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 293
+INFO 2024-05-27 13:29:11,102 views 7476 15768 Employee data retrieved
+INFO 2024-05-27 13:29:11,102 basehttp 7476 15768 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:29:11,530 views 7476 15768 Project data retrieved
+INFO 2024-05-27 13:29:11,530 basehttp 7476 15768 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:29:13,212 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:29:13,213 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 293
+INFO 2024-05-27 13:29:17,460 views 7476 15768 Employee data retrieved
+INFO 2024-05-27 13:29:17,460 basehttp 7476 15768 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:29:18,176 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:29:18,176 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 293
+INFO 2024-05-27 13:29:46,325 views 7476 15768 Home view accessed
+INFO 2024-05-27 13:29:46,325 basehttp 7476 15768 "GET / HTTP/1.1" 200 2647
+INFO 2024-05-27 13:29:56,466 basehttp 7476 15768 "GET /login/ HTTP/1.1" 200 2000
+INFO 2024-05-27 13:30:03,044 views 7476 15768 User akash_singh logged in successfully
+INFO 2024-05-27 13:30:03,044 basehttp 7476 15768 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-05-27 13:30:03,074 basehttp 7476 15768 "GET /manager_dashboard/ HTTP/1.1" 200 14026
+INFO 2024-05-27 13:30:04,443 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:30:04,443 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 293
+INFO 2024-05-27 13:30:11,257 views 7476 15768 Filtered employee data retrieved
+INFO 2024-05-27 13:30:11,257 basehttp 7476 15768 "GET /api/filter_employees/?skills=&unassigned=true HTTP/1.1" 200 2
+INFO 2024-05-27 13:30:21,685 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:30:21,688 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 293
+INFO 2024-05-27 13:30:45,289 views 7476 15768 Project unassigned from employee 1 successfully
+INFO 2024-05-27 13:30:45,290 basehttp 7476 15768 "POST /unassign_project/ HTTP/1.1" 200 78
+INFO 2024-05-27 13:31:03,862 basehttp 7476 15768 "GET /manager_dashboard/ HTTP/1.1" 200 14159
+INFO 2024-05-27 13:31:05,056 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:31:05,056 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 293
+INFO 2024-05-27 13:31:16,585 views 7476 15768 Project data retrieved
+INFO 2024-05-27 13:31:16,585 basehttp 7476 15768 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:31:20,351 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:31:20,351 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 293
+INFO 2024-05-27 13:31:25,432 views 7476 15768 Request form submitted and saved successfully
+INFO 2024-05-27 13:31:25,432 basehttp 7476 15768 "POST /api/request_employees/ HTTP/1.1" 302 0
+INFO 2024-05-27 13:31:25,449 basehttp 7476 15768 "GET /manager_dashboard/ HTTP/1.1" 200 14159
+INFO 2024-05-27 13:31:28,045 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:31:28,045 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 442
+WARNING 2024-05-27 13:31:29,868 log 7476 15768 Forbidden (CSRF token missing or incorrect.): /api/requests/79/reject/
+WARNING 2024-05-27 13:31:29,869 basehttp 7476 15768 "POST /api/requests/79/reject/ HTTP/1.1" 403 2513
+WARNING 2024-05-27 13:31:33,964 log 7476 15768 Forbidden (CSRF token missing or incorrect.): /api/requests/79/reject/
+WARNING 2024-05-27 13:31:33,964 basehttp 7476 15768 "POST /api/requests/79/reject/ HTTP/1.1" 403 2513
+WARNING 2024-05-27 13:31:35,460 log 7476 15768 Forbidden (CSRF token missing or incorrect.): /api/requests/79/reject/
+WARNING 2024-05-27 13:31:35,461 basehttp 7476 15768 "POST /api/requests/79/reject/ HTTP/1.1" 403 2513
+WARNING 2024-05-27 13:31:35,679 log 7476 15768 Forbidden (CSRF token missing or incorrect.): /api/requests/79/reject/
+WARNING 2024-05-27 13:31:35,679 basehttp 7476 15768 "POST /api/requests/79/reject/ HTTP/1.1" 403 2513
+INFO 2024-05-27 13:31:36,546 basehttp 7476 15768 "GET /admin_dashboard/ HTTP/1.1" 200 29466
+INFO 2024-05-27 13:31:36,591 views 7476 15768 Project data retrieved
+INFO 2024-05-27 13:31:36,592 basehttp 7476 15768 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:31:36,594 views 7476 10232 Employee data retrieved
+INFO 2024-05-27 13:31:36,595 basehttp 7476 10232 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:31:37,928 views 7476 10232 Request data retrieved
+INFO 2024-05-27 13:31:37,928 basehttp 7476 10232 "GET /api/requests/ HTTP/1.1" 200 442
+INFO 2024-05-27 13:31:39,240 views 7476 10232 Request 79 rejected successfully
+INFO 2024-05-27 13:31:39,240 basehttp 7476 10232 "POST /api/requests/79/reject/ HTTP/1.1" 200 45
+INFO 2024-05-27 13:31:40,598 views 7476 10232 Request data retrieved
+INFO 2024-05-27 13:31:40,598 basehttp 7476 10232 "GET /api/requests/ HTTP/1.1" 200 443
+INFO 2024-05-27 13:31:42,194 views 7476 10232 Request data retrieved
+INFO 2024-05-27 13:31:42,194 basehttp 7476 10232 "GET /api/requests/ HTTP/1.1" 200 443
+INFO 2024-05-27 13:31:43,742 basehttp 7476 10232 "GET /manager_dashboard/ HTTP/1.1" 200 14159
+INFO 2024-05-27 13:31:45,276 views 7476 10232 Request data retrieved
+INFO 2024-05-27 13:31:45,276 basehttp 7476 10232 "GET /api/requests/ HTTP/1.1" 200 443
+INFO 2024-05-27 13:31:54,722 views 7476 10232 Filtered employee data retrieved
+INFO 2024-05-27 13:31:54,722 basehttp 7476 10232 "GET /api/filter_employees/?skills=&unassigned=true HTTP/1.1" 200 146
+INFO 2024-05-27 13:32:03,020 views 7476 10232 Filtered employee data retrieved
+INFO 2024-05-27 13:32:03,020 basehttp 7476 10232 "GET /api/filter_employees/?skills=&unassigned=true HTTP/1.1" 200 146
+INFO 2024-05-27 13:32:05,819 views 7476 10232 Request data retrieved
+INFO 2024-05-27 13:32:05,819 basehttp 7476 10232 "GET /api/requests/ HTTP/1.1" 200 443
+INFO 2024-05-27 13:32:15,576 views 7476 10232 Employee data retrieved
+INFO 2024-05-27 13:32:15,576 basehttp 7476 10232 "GET /api/employees/ HTTP/1.1" 200 1325
+INFO 2024-05-27 13:32:36,995 views 7476 10232 Employee 21 deleted successfully
+INFO 2024-05-27 13:32:36,996 basehttp 7476 10232 "DELETE /api/employees/21/delete/ HTTP/1.1" 200 44
+INFO 2024-05-27 13:32:40,223 basehttp 7476 10232 "GET /admin_dashboard/ HTTP/1.1" 200 29376
+INFO 2024-05-27 13:32:40,254 views 7476 10232 Project data retrieved
+INFO 2024-05-27 13:32:40,256 basehttp 7476 10232 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:32:40,258 views 7476 15768 Employee data retrieved
+INFO 2024-05-27 13:32:40,258 basehttp 7476 15768 "GET /api/employees/ HTTP/1.1" 200 1173
+INFO 2024-05-27 13:32:41,906 views 7476 15768 Employee data retrieved
+INFO 2024-05-27 13:32:41,906 basehttp 7476 15768 "GET /api/employees/ HTTP/1.1" 200 1173
+INFO 2024-05-27 13:33:41,570 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:33:41,584 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 441
+INFO 2024-05-27 13:34:13,525 basehttp 7476 15768 "GET /admin_dashboard/ HTTP/1.1" 200 29376
+INFO 2024-05-27 13:34:13,557 views 7476 15768 Project data retrieved
+INFO 2024-05-27 13:34:13,559 basehttp 7476 15768 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:34:13,559 views 7476 10232 Employee data retrieved
+INFO 2024-05-27 13:34:13,559 basehttp 7476 10232 "GET /api/employees/ HTTP/1.1" 200 1173
+INFO 2024-05-27 13:34:14,109 views 7476 10232 Request data retrieved
+INFO 2024-05-27 13:34:14,109 basehttp 7476 10232 "GET /api/requests/ HTTP/1.1" 200 292
+INFO 2024-05-27 13:34:20,923 views 7476 10232 Employee details retrieved for employee 20
+INFO 2024-05-27 13:34:20,923 basehttp 7476 10232 "GET /get_employee_details/20/ HTTP/1.1" 200 147
+INFO 2024-05-27 13:34:22,912 views 7476 10232 Employee details retrieved for employee 22
+INFO 2024-05-27 13:34:22,912 basehttp 7476 10232 "GET /get_employee_details/22/ HTTP/1.1" 200 134
+INFO 2024-05-27 13:34:28,886 views 7476 10232 Employee 22 details updated successfully
+INFO 2024-05-27 13:34:28,886 basehttp 7476 10232 "PUT /admin_dashboard/update_employee/22/ HTTP/1.1" 200 52
+INFO 2024-05-27 13:34:37,885 views 7476 10232 Employee data retrieved
+INFO 2024-05-27 13:34:37,885 basehttp 7476 10232 "GET /api/employees/ HTTP/1.1" 200 1174
+INFO 2024-05-27 13:34:45,815 views 7476 10232 Home view accessed
+INFO 2024-05-27 13:34:45,816 basehttp 7476 10232 "GET / HTTP/1.1" 200 2647
+INFO 2024-05-27 13:34:51,328 basehttp 7476 10232 "GET /login/ HTTP/1.1" 200 2000
+INFO 2024-05-27 13:35:02,776 views 7476 10232 User richa_gupta logged in successfully
+INFO 2024-05-27 13:35:02,776 basehttp 7476 10232 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-05-27 13:35:02,792 views 7476 10232 Employee dashboard accessed
+INFO 2024-05-27 13:35:02,808 basehttp 7476 10232 "GET /employee_dashboard/ HTTP/1.1" 200 10829
+INFO 2024-05-27 13:35:04,536 views 7476 10232 Employee data retrieved
+INFO 2024-05-27 13:35:04,537 basehttp 7476 10232 "GET /api/employees/ HTTP/1.1" 200 1174
+INFO 2024-05-27 13:35:07,839 views 7476 10232 Skills retrieved for employee 1
+INFO 2024-05-27 13:35:07,839 basehttp 7476 10232 "GET /get_employee_skills/1/ HTTP/1.1" 200 44
+INFO 2024-05-27 13:35:15,865 views 7476 10232 Skills updated for employee 1
+INFO 2024-05-27 13:35:15,865 basehttp 7476 10232 "POST /admin_dashboard/update_skills/1/ HTTP/1.1" 200 51
+INFO 2024-05-27 13:35:17,981 views 7476 10232 Employee data retrieved
+INFO 2024-05-27 13:35:17,981 basehttp 7476 10232 "GET /api/employees/ HTTP/1.1" 200 1153
+INFO 2024-05-27 13:35:27,470 views 7476 10232 Employee data retrieved
+INFO 2024-05-27 13:35:27,470 basehttp 7476 10232 "GET /api/employees/ HTTP/1.1" 200 1153
+ERROR 2024-05-27 13:35:30,717 views 7476 10232 No project found for employee 1
+WARNING 2024-05-27 13:35:30,717 log 7476 10232 Not Found: /get_project_info/1/
+WARNING 2024-05-27 13:35:30,717 basehttp 7476 10232 "GET /get_project_info/1/ HTTP/1.1" 404 55
+INFO 2024-05-27 13:35:34,315 views 7476 10232 Project info retrieved for employee 2
+INFO 2024-05-27 13:35:34,315 basehttp 7476 10232 "GET /get_project_info/2/ HTTP/1.1" 200 92
+INFO 2024-05-27 13:35:45,568 views 7476 10232 Project info retrieved for employee 3
+INFO 2024-05-27 13:35:45,569 basehttp 7476 10232 "GET /get_project_info/3/ HTTP/1.1" 200 92
+INFO 2024-05-27 13:35:51,688 views 7476 10232 Project info retrieved for employee 4
+INFO 2024-05-27 13:35:51,688 basehttp 7476 10232 "GET /get_project_info/4/ HTTP/1.1" 200 114
+INFO 2024-05-27 13:35:52,824 views 7476 10232 Project info retrieved for employee 5
+INFO 2024-05-27 13:35:52,824 basehttp 7476 10232 "GET /get_project_info/5/ HTTP/1.1" 200 114
+INFO 2024-05-27 13:35:54,121 views 7476 10232 Project info retrieved for employee 6
+INFO 2024-05-27 13:35:54,121 basehttp 7476 10232 "GET /get_project_info/6/ HTTP/1.1" 200 114
+INFO 2024-05-27 13:35:56,589 views 7476 10232 Project info retrieved for employee 20
+INFO 2024-05-27 13:35:56,590 basehttp 7476 10232 "GET /get_project_info/20/ HTTP/1.1" 200 114
+INFO 2024-05-27 13:36:02,988 views 7476 10232 Project info retrieved for employee 22
+INFO 2024-05-27 13:36:02,988 basehttp 7476 10232 "GET /get_project_info/22/ HTTP/1.1" 200 101
+WARNING 2024-05-27 13:36:44,793 log 7476 10232 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2024-05-27 13:36:44,793 basehttp 7476 10232 "POST /login/ HTTP/1.1" 403 2513
+INFO 2024-05-27 13:36:46,608 basehttp 7476 10232 "GET /login/ HTTP/1.1" 200 2000
+INFO 2024-05-27 13:36:49,906 views 7476 10232 User akash_singh logged in successfully
+INFO 2024-05-27 13:36:49,923 basehttp 7476 10232 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-05-27 13:36:49,939 basehttp 7476 10232 "GET /manager_dashboard/ HTTP/1.1" 200 14112
+INFO 2024-05-27 13:36:51,189 views 7476 10232 Request data retrieved
+INFO 2024-05-27 13:36:51,189 basehttp 7476 10232 "GET /api/requests/ HTTP/1.1" 200 292
+INFO 2024-05-27 13:37:05,274 views 7476 10232 Request form submitted and saved successfully
+INFO 2024-05-27 13:37:05,275 basehttp 7476 10232 "POST /api/request_employees/ HTTP/1.1" 302 0
+INFO 2024-05-27 13:37:05,299 basehttp 7476 10232 "GET /manager_dashboard/ HTTP/1.1" 200 14112
+INFO 2024-05-27 13:37:09,782 views 7476 10232 Request data retrieved
+INFO 2024-05-27 13:37:09,782 basehttp 7476 10232 "GET /api/requests/ HTTP/1.1" 200 441
+INFO 2024-05-27 13:37:13,773 views 7476 10232 Home view accessed
+INFO 2024-05-27 13:37:13,774 basehttp 7476 10232 "GET / HTTP/1.1" 200 2647
+INFO 2024-05-27 13:37:14,742 basehttp 7476 10232 "GET /login/ HTTP/1.1" 200 2000
+INFO 2024-05-27 13:37:18,096 views 7476 10232 User anushka_sohani logged in successfully
+INFO 2024-05-27 13:37:18,096 basehttp 7476 10232 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-05-27 13:37:18,130 basehttp 7476 10232 "GET /admin_dashboard/ HTTP/1.1" 200 29376
+INFO 2024-05-27 13:37:18,184 views 7476 10232 Project data retrieved
+INFO 2024-05-27 13:37:18,185 views 7476 15768 Employee data retrieved
+INFO 2024-05-27 13:37:18,186 basehttp 7476 10232 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-27 13:37:18,187 basehttp 7476 15768 "GET /api/employees/ HTTP/1.1" 200 1153
+INFO 2024-05-27 13:37:19,696 views 7476 15768 Request data retrieved
+INFO 2024-05-27 13:37:19,696 basehttp 7476 15768 "GET /api/requests/ HTTP/1.1" 200 441
+INFO 2024-05-27 13:37:20,983 views 7476 15768 Request 80 approved and EmployeeProject records created
+INFO 2024-05-27 13:37:20,983 basehttp 7476 15768 "POST /api/requests/80/approve/ HTTP/1.1" 200 67
+WARNING 2024-05-27 13:37:22,250 log 7476 15768 Not Found: /api/requests/80/employees/
+WARNING 2024-05-27 13:37:22,250 basehttp 7476 15768 "GET /api/requests/80/employees/ HTTP/1.1" 404 5528
+INFO 2024-05-27 13:37:22,263 views 7476 10232 Request data retrieved
+INFO 2024-05-27 13:37:22,264 basehttp 7476 10232 "GET /api/requests/ HTTP/1.1" 200 442
+INFO 2024-05-27 13:37:34,022 views 7476 10232 Request data retrieved
+INFO 2024-05-27 13:37:34,022 basehttp 7476 10232 "GET /api/requests/ HTTP/1.1" 200 442
+INFO 2024-05-28 16:27:42,510 views 19544 16488 Project "New Project" added successfully
+ERROR 2024-05-28 16:27:42,588 views 19544 16488 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 16:27:42,588 log 19544 16488 Bad Request: /add_project/
+INFO 2024-05-28 16:27:42,729 views 19544 16488 Employee form submitted and saved successfully
+INFO 2024-05-28 16:27:43,041 views 19544 16488 Project 5 assigned to employee 5 successfully
+ERROR 2024-05-28 16:27:43,041 views 19544 16488 Project or employee not found
+WARNING 2024-05-28 16:27:43,041 log 19544 16488 Not Found: /assign_project/
+INFO 2024-05-28 16:27:43,198 views 19544 16488 Employee 6 deleted successfully
+INFO 2024-05-28 16:27:43,339 views 19544 16488 Employee dashboard accessed
+INFO 2024-05-28 16:27:43,495 views 19544 16488 Filtered employee data retrieved
+INFO 2024-05-28 16:27:43,636 views 19544 16488 Employee data retrieved
+INFO 2024-05-28 16:27:43,793 views 19544 16488 Employee details retrieved for employee 10
+INFO 2024-05-28 16:27:43,934 views 19544 16488 Skills retrieved for employee 11
+INFO 2024-05-28 16:27:44,074 views 19544 16488 Project data retrieved
+INFO 2024-05-28 16:27:44,216 views 19544 16488 Project info retrieved for employee 13
+INFO 2024-05-28 16:27:44,356 views 19544 16488 Request data retrieved
+WARNING 2024-05-28 16:27:44,856 views 19544 16488 User registration failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>user_type<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 16:27:45,309 views 19544 16488 Employee form submitted and saved successfully
+WARNING 2024-05-28 16:27:45,309 views 19544 16488 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 16:27:45,465 views 19544 16488 Project unassigned from employee 22 successfully
+ERROR 2024-05-28 16:27:45,465 views 19544 16488 Employee project not found
+WARNING 2024-05-28 16:27:45,465 log 19544 16488 Not Found: /unassign_project/
+INFO 2024-05-28 16:27:45,606 views 19544 16488 Employee 23 details updated successfully
+INFO 2024-05-28 16:27:45,763 views 19544 16488 Skills updated for employee 24
+INFO 2024-05-28 16:33:21,775 views 13888 18500 Project "New Project" added successfully
+ERROR 2024-05-28 16:33:21,806 views 13888 18500 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 16:33:21,806 log 13888 18500 Bad Request: /add_project/
+INFO 2024-05-28 16:33:21,947 views 13888 18500 Employee form submitted and saved successfully
+INFO 2024-05-28 16:33:22,244 views 13888 18500 Project 5 assigned to employee 5 successfully
+ERROR 2024-05-28 16:33:22,244 views 13888 18500 Project or employee not found
+WARNING 2024-05-28 16:33:22,244 log 13888 18500 Not Found: /assign_project/
+INFO 2024-05-28 16:33:22,401 views 13888 18500 Employee 6 deleted successfully
+INFO 2024-05-28 16:33:22,541 views 13888 18500 Employee dashboard accessed
+INFO 2024-05-28 16:33:22,682 views 13888 18500 Filtered employee data retrieved
+INFO 2024-05-28 16:33:22,823 views 13888 18500 Employee data retrieved
+INFO 2024-05-28 16:33:22,964 views 13888 18500 Employee details retrieved for employee 10
+INFO 2024-05-28 16:33:23,104 views 13888 18500 Skills retrieved for employee 11
+INFO 2024-05-28 16:33:23,245 views 13888 18500 Project data retrieved
+INFO 2024-05-28 16:33:23,402 views 13888 18500 Project info retrieved for employee 13
+INFO 2024-05-28 16:33:23,542 views 13888 18500 Request data retrieved
+WARNING 2024-05-28 16:33:23,981 views 13888 18500 User registration failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>user_type<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 16:33:24,420 views 13888 18500 Employee form submitted and saved successfully
+WARNING 2024-05-28 16:33:24,435 views 13888 18500 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 16:33:24,576 views 13888 18500 Project unassigned from employee 22 successfully
+ERROR 2024-05-28 16:33:24,576 views 13888 18500 Employee project not found
+WARNING 2024-05-28 16:33:24,576 log 13888 18500 Not Found: /unassign_project/
+INFO 2024-05-28 16:33:24,716 views 13888 18500 Employee 23 details updated successfully
+INFO 2024-05-28 16:33:24,873 views 13888 18500 Skills updated for employee 24
+INFO 2024-05-28 16:39:53,525 views 19412 18328 Project "New Project" added successfully
+ERROR 2024-05-28 16:39:53,540 views 19412 18328 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 16:39:53,540 log 19412 18328 Bad Request: /add_project/
+INFO 2024-05-28 16:39:53,697 views 19412 18328 Employee form submitted and saved successfully
+INFO 2024-05-28 16:39:53,994 views 19412 18328 Project 5 assigned to employee 5 successfully
+ERROR 2024-05-28 16:39:53,994 views 19412 18328 Project or employee not found
+WARNING 2024-05-28 16:39:53,994 log 19412 18328 Not Found: /assign_project/
+INFO 2024-05-28 16:39:54,135 views 19412 18328 Employee 6 deleted successfully
+INFO 2024-05-28 16:39:54,291 views 19412 18328 Employee dashboard accessed
+INFO 2024-05-28 16:39:54,434 views 19412 18328 Filtered employee data retrieved
+INFO 2024-05-28 16:39:54,591 views 19412 18328 Employee data retrieved
+INFO 2024-05-28 16:39:54,747 views 19412 18328 Employee details retrieved for employee 10
+INFO 2024-05-28 16:39:54,888 views 19412 18328 Skills retrieved for employee 11
+INFO 2024-05-28 16:39:55,030 views 19412 18328 Project data retrieved
+INFO 2024-05-28 16:39:55,186 views 19412 18328 Project info retrieved for employee 13
+INFO 2024-05-28 16:39:55,342 views 19412 18328 Request data retrieved
+INFO 2024-05-28 16:39:55,482 views 19412 18328 Home view accessed
+WARNING 2024-05-28 16:39:55,812 views 19412 18328 User registration failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>user_type<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 16:39:56,266 views 19412 18328 Employee form submitted and saved successfully
+WARNING 2024-05-28 16:39:56,282 views 19412 18328 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 16:39:56,422 views 19412 18328 Project unassigned from employee 22 successfully
+ERROR 2024-05-28 16:39:56,422 views 19412 18328 Employee project not found
+WARNING 2024-05-28 16:39:56,422 log 19412 18328 Not Found: /unassign_project/
+INFO 2024-05-28 16:39:56,580 views 19412 18328 Employee 23 details updated successfully
+INFO 2024-05-28 16:39:56,753 views 19412 18328 Skills updated for employee 24
+INFO 2024-05-28 16:44:23,597 views 3364 9280 Project "New Project" added successfully
+ERROR 2024-05-28 16:44:23,613 views 3364 9280 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 16:44:23,613 log 3364 9280 Bad Request: /add_project/
+INFO 2024-05-28 16:44:23,769 views 3364 9280 Employee form submitted and saved successfully
+INFO 2024-05-28 16:44:24,066 views 3364 9280 Project 5 assigned to employee 5 successfully
+ERROR 2024-05-28 16:44:24,066 views 3364 9280 Project or employee not found
+WARNING 2024-05-28 16:44:24,066 log 3364 9280 Not Found: /assign_project/
+INFO 2024-05-28 16:44:24,223 views 3364 9280 Employee 6 deleted successfully
+INFO 2024-05-28 16:44:24,375 views 3364 9280 Employee dashboard accessed
+INFO 2024-05-28 16:44:24,520 views 3364 9280 Filtered employee data retrieved
+INFO 2024-05-28 16:44:24,661 views 3364 9280 Employee data retrieved
+INFO 2024-05-28 16:44:24,817 views 3364 9280 Employee details retrieved for employee 10
+INFO 2024-05-28 16:44:24,958 views 3364 9280 Skills retrieved for employee 11
+INFO 2024-05-28 16:44:25,099 views 3364 9280 Project data retrieved
+INFO 2024-05-28 16:44:25,239 views 3364 9280 Project info retrieved for employee 13
+INFO 2024-05-28 16:44:25,380 views 3364 9280 Request data retrieved
+INFO 2024-05-28 16:44:25,522 views 3364 9280 Home view accessed
+WARNING 2024-05-28 16:44:25,835 views 3364 9280 User registration failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>user_type<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 16:44:26,273 views 3364 9280 Employee form submitted and saved successfully
+WARNING 2024-05-28 16:44:26,273 views 3364 9280 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 16:44:26,430 views 3364 9280 Project unassigned from employee 22 successfully
+ERROR 2024-05-28 16:44:26,430 views 3364 9280 Employee project not found
+WARNING 2024-05-28 16:44:26,430 log 3364 9280 Not Found: /unassign_project/
+INFO 2024-05-28 16:44:26,570 views 3364 9280 Employee 23 details updated successfully
+INFO 2024-05-28 16:44:26,711 views 3364 9280 Skills updated for employee 24
+INFO 2024-05-28 16:46:58,315 views 14064 20684 Project "New Project" added successfully
+ERROR 2024-05-28 16:46:58,331 views 14064 20684 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 16:46:58,331 log 14064 20684 Bad Request: /add_project/
+INFO 2024-05-28 16:46:58,472 views 14064 20684 Employee form submitted and saved successfully
+INFO 2024-05-28 16:46:58,787 views 14064 20684 Project 5 assigned to employee 5 successfully
+ERROR 2024-05-28 16:46:58,803 views 14064 20684 Project or employee not found
+WARNING 2024-05-28 16:46:58,803 log 14064 20684 Not Found: /assign_project/
+INFO 2024-05-28 16:46:58,944 views 14064 20684 Employee 6 deleted successfully
+INFO 2024-05-28 16:46:59,084 views 14064 20684 Employee dashboard accessed
+INFO 2024-05-28 16:46:59,225 views 14064 20684 Filtered employee data retrieved
+INFO 2024-05-28 16:46:59,367 views 14064 20684 Employee data retrieved
+INFO 2024-05-28 16:46:59,507 views 14064 20684 Employee details retrieved for employee 10
+INFO 2024-05-28 16:46:59,679 views 14064 20684 Skills retrieved for employee 11
+INFO 2024-05-28 16:46:59,820 views 14064 20684 Project data retrieved
+INFO 2024-05-28 16:46:59,961 views 14064 20684 Project info retrieved for employee 13
+INFO 2024-05-28 16:47:00,118 views 14064 20684 Request data retrieved
+INFO 2024-05-28 16:47:00,259 views 14064 20684 Home view accessed
+WARNING 2024-05-28 16:47:00,558 views 14064 20684 User registration failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>user_type<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 16:47:01,028 views 14064 20684 Employee form submitted and saved successfully
+WARNING 2024-05-28 16:47:01,028 views 14064 20684 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 16:47:01,170 views 14064 20684 Project unassigned from employee 22 successfully
+ERROR 2024-05-28 16:47:01,170 views 14064 20684 Employee project not found
+WARNING 2024-05-28 16:47:01,170 log 14064 20684 Not Found: /unassign_project/
+INFO 2024-05-28 16:47:01,327 views 14064 20684 Employee 23 details updated successfully
+INFO 2024-05-28 16:47:01,468 views 14064 20684 Skills updated for employee 24
+INFO 2024-05-28 16:49:37,505 views 16588 1752 Project "New Project" added successfully
+ERROR 2024-05-28 16:49:37,521 views 16588 1752 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 16:49:37,521 log 16588 1752 Bad Request: /add_project/
+INFO 2024-05-28 16:49:37,662 views 16588 1752 Employee form submitted and saved successfully
+INFO 2024-05-28 16:49:37,958 views 16588 1752 Project 5 assigned to employee 6 successfully
+ERROR 2024-05-28 16:49:37,974 views 16588 1752 Project or employee not found
+WARNING 2024-05-28 16:49:37,974 log 16588 1752 Not Found: /assign_project/
+INFO 2024-05-28 16:49:38,115 views 16588 1752 Employee 7 deleted successfully
+INFO 2024-05-28 16:49:38,257 views 16588 1752 Employee dashboard accessed
+INFO 2024-05-28 16:49:38,398 views 16588 1752 Filtered employee data retrieved
+INFO 2024-05-28 16:49:38,555 views 16588 1752 Employee data retrieved
+INFO 2024-05-28 16:49:38,696 views 16588 1752 Employee details retrieved for employee 11
+INFO 2024-05-28 16:49:38,836 views 16588 1752 Skills retrieved for employee 12
+INFO 2024-05-28 16:49:38,977 views 16588 1752 Project data retrieved
+INFO 2024-05-28 16:49:39,118 views 16588 1752 Project info retrieved for employee 14
+INFO 2024-05-28 16:49:39,259 views 16588 1752 Request data retrieved
+INFO 2024-05-28 16:49:39,400 views 16588 1752 Home view accessed
+WARNING 2024-05-28 16:49:39,697 views 16588 1752 User registration failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>user_type<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 16:49:40,135 views 16588 1752 Employee form submitted and saved successfully
+WARNING 2024-05-28 16:49:40,135 views 16588 1752 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 16:49:40,291 views 16588 1752 Project unassigned from employee 23 successfully
+ERROR 2024-05-28 16:49:40,291 views 16588 1752 Employee project not found
+WARNING 2024-05-28 16:49:40,291 log 16588 1752 Not Found: /unassign_project/
+INFO 2024-05-28 16:49:40,432 views 16588 1752 Employee 24 details updated successfully
+INFO 2024-05-28 16:49:40,573 views 16588 1752 Skills updated for employee 25
+INFO 2024-05-28 16:50:05,753 views 3588 2120 Project "New Project" added successfully
+ERROR 2024-05-28 16:50:05,773 views 3588 2120 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 16:50:05,773 log 3588 2120 Bad Request: /add_project/
+INFO 2024-05-28 16:50:05,923 views 3588 2120 Employee form submitted and saved successfully
+INFO 2024-05-28 16:50:06,222 views 3588 2120 Project 5 assigned to employee 5 successfully
+ERROR 2024-05-28 16:50:06,224 views 3588 2120 Project or employee not found
+WARNING 2024-05-28 16:50:06,225 log 3588 2120 Not Found: /assign_project/
+INFO 2024-05-28 16:50:06,376 views 3588 2120 Employee 6 deleted successfully
+INFO 2024-05-28 16:50:06,525 views 3588 2120 Employee dashboard accessed
+INFO 2024-05-28 16:50:06,673 views 3588 2120 Filtered employee data retrieved
+INFO 2024-05-28 16:50:06,817 views 3588 2120 Employee data retrieved
+INFO 2024-05-28 16:50:06,965 views 3588 2120 Employee details retrieved for employee 10
+INFO 2024-05-28 16:50:07,107 views 3588 2120 Skills retrieved for employee 11
+INFO 2024-05-28 16:50:07,249 views 3588 2120 Project data retrieved
+INFO 2024-05-28 16:50:07,399 views 3588 2120 Project info retrieved for employee 13
+INFO 2024-05-28 16:50:07,544 views 3588 2120 Request data retrieved
+INFO 2024-05-28 16:50:07,686 views 3588 2120 Home view accessed
+WARNING 2024-05-28 16:50:07,988 views 3588 2120 User registration failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>user_type<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 16:50:08,424 views 3588 2120 Employee form submitted and saved successfully
+WARNING 2024-05-28 16:50:08,429 views 3588 2120 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 16:50:08,582 views 3588 2120 Project unassigned from employee 22 successfully
+ERROR 2024-05-28 16:50:08,584 views 3588 2120 Employee project not found
+WARNING 2024-05-28 16:50:08,584 log 3588 2120 Not Found: /unassign_project/
+INFO 2024-05-28 16:50:08,777 views 3588 2120 Employee 23 details updated successfully
+INFO 2024-05-28 16:50:08,930 views 3588 2120 Skills updated for employee 24
+INFO 2024-05-28 20:40:14,719 views 15784 12240 Project "New Project" added successfully
+ERROR 2024-05-28 20:40:14,797 views 15784 12240 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 20:40:14,797 log 15784 12240 Bad Request: /add_project/
+INFO 2024-05-28 20:40:14,797 views 15784 12240 Employee form submitted and saved successfully
+INFO 2024-05-28 20:40:14,823 views 15784 12240 Request 3 approved and EmployeeProject records created
+INFO 2024-05-28 20:40:14,831 views 15784 12240 Employee dashboard accessed
+INFO 2024-05-28 20:40:14,860 views 15784 12240 Filtered employee data retrieved
+INFO 2024-05-28 20:40:14,860 views 15784 12240 Employee data retrieved
+INFO 2024-05-28 20:40:14,876 views 15784 12240 Project data retrieved
+INFO 2024-05-28 20:40:14,898 views 15784 12240 Request data retrieved
+INFO 2024-05-28 20:40:14,898 views 15784 12240 Home view accessed
+WARNING 2024-05-28 20:40:14,987 views 15784 12240 User registration failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>user_type<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 20:40:15,002 views 15784 12240 Request 17 rejected successfully
+INFO 2024-05-28 20:40:15,034 views 15784 12240 Employee form submitted and saved successfully
+WARNING 2024-05-28 20:40:15,050 views 15784 12240 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 20:41:17,545 views 588 18792 Project "New Project" added successfully
+ERROR 2024-05-28 20:41:17,561 views 588 18792 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 20:41:17,561 log 588 18792 Bad Request: /add_project/
+INFO 2024-05-28 20:41:17,576 views 588 18792 Employee form submitted and saved successfully
+INFO 2024-05-28 20:41:17,592 views 588 18792 Request 3 approved and EmployeeProject records created
+INFO 2024-05-28 20:41:17,623 views 588 18792 Employee dashboard accessed
+INFO 2024-05-28 20:41:17,639 views 588 18792 Filtered employee data retrieved
+INFO 2024-05-28 20:41:17,639 views 588 18792 Employee data retrieved
+INFO 2024-05-28 20:41:17,654 views 588 18792 Project data retrieved
+INFO 2024-05-28 20:41:17,670 views 588 18792 Request data retrieved
+INFO 2024-05-28 20:41:17,686 views 588 18792 Home view accessed
+WARNING 2024-05-28 20:41:17,717 views 588 18792 User registration failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>user_type<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 20:41:17,733 views 588 18792 Request 17 rejected successfully
+INFO 2024-05-28 20:41:17,764 views 588 18792 Employee form submitted and saved successfully
+WARNING 2024-05-28 20:41:17,764 views 588 18792 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 20:51:15,021 views 7336 2324 Project "New Project" added successfully
+ERROR 2024-05-28 20:51:15,037 views 7336 2324 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 20:51:15,037 log 7336 2324 Bad Request: /add_project/
+INFO 2024-05-28 20:51:15,193 views 7336 2324 Employee form submitted and saved successfully
+INFO 2024-05-28 20:51:15,522 views 7336 2324 Project 5 assigned to employee 5 successfully
+ERROR 2024-05-28 20:51:15,522 views 7336 2324 Project or employee not found
+WARNING 2024-05-28 20:51:15,522 log 7336 2324 Not Found: /assign_project/
+INFO 2024-05-28 20:51:15,695 views 7336 2324 Employee 6 deleted successfully
+INFO 2024-05-28 20:51:15,852 views 7336 2324 Employee dashboard accessed
+INFO 2024-05-28 20:51:15,993 views 7336 2324 Filtered employee data retrieved
+INFO 2024-05-28 20:51:16,150 views 7336 2324 Employee data retrieved
+INFO 2024-05-28 20:51:16,306 views 7336 2324 Employee details retrieved for employee 10
+INFO 2024-05-28 20:51:16,447 views 7336 2324 Skills retrieved for employee 11
+INFO 2024-05-28 20:51:16,604 views 7336 2324 Project data retrieved
+INFO 2024-05-28 20:51:16,760 views 7336 2324 Project info retrieved for employee 13
+INFO 2024-05-28 20:51:16,916 views 7336 2324 Request data retrieved
+INFO 2024-05-28 20:51:17,058 views 7336 2324 Home view accessed
+INFO 2024-05-28 20:51:17,528 views 7336 2324 Request 1 rejected successfully
+INFO 2024-05-28 20:51:18,015 views 7336 2324 Employee form submitted and saved successfully
+WARNING 2024-05-28 20:51:18,015 views 7336 2324 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 20:51:18,171 views 7336 2324 Project unassigned from employee 23 successfully
+ERROR 2024-05-28 20:51:18,171 views 7336 2324 Employee project not found
+WARNING 2024-05-28 20:51:18,171 log 7336 2324 Not Found: /unassign_project/
+INFO 2024-05-28 20:51:18,329 views 7336 2324 Employee 24 details updated successfully
+INFO 2024-05-28 20:51:18,472 views 7336 2324 Skills updated for employee 25
+INFO 2024-05-28 21:01:03,345 views 9024 16976 Project "New Project" added successfully
+ERROR 2024-05-28 21:01:03,376 views 9024 16976 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 21:01:03,376 log 9024 16976 Bad Request: /add_project/
+INFO 2024-05-28 21:01:03,532 views 9024 16976 Employee form submitted and saved successfully
+INFO 2024-05-28 21:01:03,704 views 9024 16976 Request 3 approved and EmployeeProject records created
+INFO 2024-05-28 21:01:04,190 views 9024 16976 Employee dashboard accessed
+INFO 2024-05-28 21:01:04,363 views 9024 16976 Filtered employee data retrieved
+INFO 2024-05-28 21:01:04,519 views 9024 16976 Employee data retrieved
+INFO 2024-05-28 21:01:05,176 views 9024 16976 Request data retrieved
+INFO 2024-05-28 21:01:05,333 views 9024 16976 Home view accessed
+INFO 2024-05-28 21:01:05,817 views 9024 16976 Request 16 rejected successfully
+INFO 2024-05-28 21:01:06,303 views 9024 16976 Employee form submitted and saved successfully
+WARNING 2024-05-28 21:01:06,318 views 9024 16976 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-28 21:09:00,979 views 3600 15208 Project "New Project" added successfully
+ERROR 2024-05-28 21:09:01,010 views 3600 15208 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 21:09:01,010 log 3600 15208 Bad Request: /add_project/
+INFO 2024-05-28 21:09:01,183 views 3600 15208 Employee form submitted and saved successfully
+INFO 2024-05-28 21:09:01,340 views 3600 15208 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-28 21:09:01,483 views 3600 15208 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-28 21:09:01,483 log 3600 15208 Internal Server Error: /assign_project/
+INFO 2024-05-28 21:09:01,656 views 3600 15208 Employee 11 deleted successfully
+INFO 2024-05-28 21:09:01,829 views 3600 15208 Employee dashboard accessed
+INFO 2024-05-28 21:09:01,986 views 3600 15208 Filtered employee data retrieved
+INFO 2024-05-28 21:09:02,145 views 3600 15208 Employee data retrieved
+INFO 2024-05-28 21:09:02,317 views 3600 15208 Employee details retrieved for employee 19
+INFO 2024-05-28 21:09:02,474 views 3600 15208 Skills retrieved for employee 21
+INFO 2024-05-28 21:09:02,632 views 3600 15208 Project data retrieved
+INFO 2024-05-28 21:09:02,806 views 3600 15208 Request data retrieved
+INFO 2024-05-28 21:09:02,980 views 3600 15208 Home view accessed
+INFO 2024-05-28 21:09:03,472 views 3600 15208 Request 16 rejected successfully
+INFO 2024-05-28 21:09:03,954 views 3600 15208 Employee form submitted and saved successfully
+WARNING 2024-05-28 21:09:03,970 views 3600 15208 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-28 21:09:04,127 views 3600 15208 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-28 21:09:04,127 log 3600 15208 Internal Server Error: /unassign_project/
+ERROR 2024-05-28 21:09:04,285 log 3600 15208 Internal Server Error: /admin_dashboard/update_employee/44/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view prj_emp.views.update_employee didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-05-28 21:09:04,473 log 3600 15208 Internal Server Error: /admin_dashboard/update_skills/46/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\prj_emp\prj_emp\views.py", line 305, in update_skills
+    data = json.loads(request.body)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO 2024-05-28 21:25:36,929 views 14052 23220 Project "New Project" added successfully
+ERROR 2024-05-28 21:25:36,960 views 14052 23220 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 21:25:36,960 log 14052 23220 Bad Request: /add_project/
+INFO 2024-05-28 21:25:37,149 views 14052 23220 Employee form submitted and saved successfully
+INFO 2024-05-28 21:25:37,354 views 14052 23220 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-28 21:25:37,512 views 14052 23220 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-28 21:25:37,512 log 14052 23220 Internal Server Error: /assign_project/
+INFO 2024-05-28 21:25:37,702 views 14052 23220 Employee 11 deleted successfully
+INFO 2024-05-28 21:25:37,892 views 14052 23220 Employee dashboard accessed
+INFO 2024-05-28 21:25:38,066 views 14052 23220 Filtered employee data retrieved
+INFO 2024-05-28 21:25:38,238 views 14052 23220 Employee data retrieved
+INFO 2024-05-28 21:25:38,427 views 14052 23220 Employee details retrieved for employee 19
+INFO 2024-05-28 21:25:38,599 views 14052 23220 Skills retrieved for employee 21
+INFO 2024-05-28 21:25:38,772 views 14052 23220 Project data retrieved
+INFO 2024-05-28 21:25:38,960 views 14052 23220 Request data retrieved
+INFO 2024-05-28 21:25:39,133 views 14052 23220 Home view accessed
+INFO 2024-05-28 21:25:39,682 views 14052 23220 Request 16 rejected successfully
+INFO 2024-05-28 21:25:40,232 views 14052 23220 Employee form submitted and saved successfully
+WARNING 2024-05-28 21:25:40,248 views 14052 23220 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-28 21:25:40,437 views 14052 23220 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-28 21:25:40,437 log 14052 23220 Internal Server Error: /unassign_project/
+ERROR 2024-05-28 21:25:40,612 log 14052 23220 Internal Server Error: /admin_dashboard/update_employee/44/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view prj_emp.views.update_employee didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-05-28 21:25:40,785 log 14052 23220 Internal Server Error: /admin_dashboard/update_skills/46/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\prj_emp\prj_emp\views.py", line 305, in update_skills
+    data = json.loads(request.body)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO 2024-05-28 21:34:30,612 views 3704 2276 Project "New Project" added successfully
+ERROR 2024-05-28 21:34:30,643 views 3704 2276 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 21:34:30,643 log 3704 2276 Bad Request: /add_project/
+INFO 2024-05-28 21:34:30,846 views 3704 2276 Employee form submitted and saved successfully
+INFO 2024-05-28 21:34:31,049 views 3704 2276 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-28 21:34:31,253 views 3704 2276 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-28 21:34:31,253 log 3704 2276 Internal Server Error: /assign_project/
+INFO 2024-05-28 21:34:31,440 views 3704 2276 Employee 11 deleted successfully
+INFO 2024-05-28 21:34:31,644 views 3704 2276 Employee dashboard accessed
+INFO 2024-05-28 21:34:31,832 views 3704 2276 Filtered employee data retrieved
+INFO 2024-05-28 21:34:32,035 views 3704 2276 Employee data retrieved
+INFO 2024-05-28 21:34:32,223 views 3704 2276 Employee details retrieved for employee 19
+INFO 2024-05-28 21:34:32,426 views 3704 2276 Skills retrieved for employee 21
+INFO 2024-05-28 21:34:32,613 views 3704 2276 Project data retrieved
+INFO 2024-05-28 21:34:32,801 views 3704 2276 Request data retrieved
+INFO 2024-05-28 21:34:32,988 views 3704 2276 Home view accessed
+INFO 2024-05-28 21:34:33,582 views 3704 2276 Request 16 rejected successfully
+INFO 2024-05-28 21:34:34,192 views 3704 2276 Employee form submitted and saved successfully
+WARNING 2024-05-28 21:34:34,192 views 3704 2276 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-28 21:34:34,395 views 3704 2276 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-28 21:34:34,395 log 3704 2276 Internal Server Error: /unassign_project/
+ERROR 2024-05-28 21:34:34,599 log 3704 2276 Internal Server Error: /admin_dashboard/update_employee/44/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view prj_emp.views.update_employee didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-05-28 21:34:34,787 log 3704 2276 Internal Server Error: /admin_dashboard/update_skills/46/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\prj_emp\prj_emp\views.py", line 305, in update_skills
+    data = json.loads(request.body)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO 2024-05-28 21:37:39,216 views 16904 11292 Project "New Project" added successfully
+ERROR 2024-05-28 21:37:39,232 views 16904 11292 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 21:37:39,232 log 16904 11292 Bad Request: /add_project/
+INFO 2024-05-28 21:37:39,452 views 16904 11292 Employee form submitted and saved successfully
+INFO 2024-05-28 21:37:39,656 views 16904 11292 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-28 21:37:39,844 views 16904 11292 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-28 21:37:39,844 log 16904 11292 Internal Server Error: /assign_project/
+INFO 2024-05-28 21:37:40,032 views 16904 11292 Employee 15 deleted successfully
+INFO 2024-05-28 21:37:40,219 views 16904 11292 Employee dashboard accessed
+INFO 2024-05-28 21:37:40,407 views 16904 11292 Filtered employee data retrieved
+INFO 2024-05-28 21:37:40,596 views 16904 11292 Employee data retrieved
+INFO 2024-05-28 21:37:40,799 views 16904 11292 Employee details retrieved for employee 27
+INFO 2024-05-28 21:37:41,003 views 16904 11292 Skills retrieved for employee 30
+INFO 2024-05-28 21:37:41,190 views 16904 11292 Project data retrieved
+INFO 2024-05-28 21:37:41,393 views 16904 11292 Request data retrieved
+INFO 2024-05-28 21:37:41,581 views 16904 11292 Home view accessed
+INFO 2024-05-28 21:37:42,160 views 16904 11292 Request 16 rejected successfully
+INFO 2024-05-28 21:37:42,756 views 16904 11292 Employee form submitted and saved successfully
+WARNING 2024-05-28 21:37:42,756 views 16904 11292 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-28 21:37:42,960 views 16904 11292 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-28 21:37:42,960 log 16904 11292 Internal Server Error: /unassign_project/
+ERROR 2024-05-28 21:37:43,148 log 16904 11292 Internal Server Error: /admin_dashboard/update_employee/64/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view prj_emp.views.update_employee didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-05-28 21:37:43,335 log 16904 11292 Internal Server Error: /admin_dashboard/update_skills/67/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\prj_emp\prj_emp\views.py", line 305, in update_skills
+    data = json.loads(request.body)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO 2024-05-28 21:53:10,005 views 21524 13152 Project "New Project" added successfully
+ERROR 2024-05-28 21:53:10,047 views 21524 13152 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 21:53:10,048 log 21524 13152 Bad Request: /add_project/
+INFO 2024-05-28 21:53:10,224 views 21524 13152 Employee form submitted and saved successfully
+INFO 2024-05-28 21:53:10,430 views 21524 13152 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-28 21:53:10,603 views 21524 13152 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-28 21:53:10,603 log 21524 13152 Internal Server Error: /assign_project/
+INFO 2024-05-28 21:53:10,808 views 21524 13152 Employee 15 deleted successfully
+INFO 2024-05-28 21:53:10,998 views 21524 13152 Employee dashboard accessed
+INFO 2024-05-28 21:53:11,187 views 21524 13152 Filtered employee data retrieved
+INFO 2024-05-28 21:53:11,359 views 21524 13152 Employee data retrieved
+INFO 2024-05-28 21:53:11,562 views 21524 13152 Employee details retrieved for employee 27
+INFO 2024-05-28 21:53:11,750 views 21524 13152 Skills retrieved for employee 30
+INFO 2024-05-28 21:53:11,955 views 21524 13152 Project data retrieved
+INFO 2024-05-28 21:53:12,159 views 21524 13152 Request data retrieved
+INFO 2024-05-28 21:53:12,346 views 21524 13152 Home view accessed
+INFO 2024-05-28 21:53:12,988 views 21524 13152 Request 16 rejected successfully
+INFO 2024-05-28 21:53:13,568 views 21524 13152 Employee form submitted and saved successfully
+WARNING 2024-05-28 21:53:13,584 views 21524 13152 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-28 21:53:13,787 views 21524 13152 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-28 21:53:13,787 log 21524 13152 Internal Server Error: /unassign_project/
+ERROR 2024-05-28 21:53:13,959 log 21524 13152 Internal Server Error: /admin_dashboard/update_employee/64/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view prj_emp.views.update_employee didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-05-28 21:53:14,162 log 21524 13152 Internal Server Error: /admin_dashboard/update_skills/67/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\prj_emp\prj_emp\views.py", line 305, in update_skills
+    data = json.loads(request.body)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO 2024-05-28 21:56:20,827 views 21472 19296 Project "New Project" added successfully
+ERROR 2024-05-28 21:56:20,858 views 21472 19296 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 21:56:20,858 log 21472 19296 Bad Request: /add_project/
+INFO 2024-05-28 21:56:21,062 views 21472 19296 Employee form submitted and saved successfully
+INFO 2024-05-28 21:56:21,280 views 21472 19296 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-28 21:56:21,468 views 21472 19296 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-28 21:56:21,468 log 21472 19296 Internal Server Error: /assign_project/
+INFO 2024-05-28 21:56:21,687 views 21472 19296 Employee 15 deleted successfully
+INFO 2024-05-28 21:56:21,859 views 21472 19296 Employee dashboard accessed
+INFO 2024-05-28 21:56:22,047 views 21472 19296 Filtered employee data retrieved
+INFO 2024-05-28 21:56:22,235 views 21472 19296 Employee data retrieved
+INFO 2024-05-28 21:56:22,407 views 21472 19296 Employee details retrieved for employee 27
+INFO 2024-05-28 21:56:22,626 views 21472 19296 Skills retrieved for employee 30
+INFO 2024-05-28 21:56:22,798 views 21472 19296 Project data retrieved
+INFO 2024-05-28 21:56:23,033 views 21472 19296 Request data retrieved
+INFO 2024-05-28 21:56:23,223 views 21472 19296 Home view accessed
+INFO 2024-05-28 21:56:23,805 views 21472 19296 Request 16 rejected successfully
+INFO 2024-05-28 21:56:24,372 views 21472 19296 Employee form submitted and saved successfully
+WARNING 2024-05-28 21:56:24,388 views 21472 19296 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-28 21:56:24,593 views 21472 19296 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-28 21:56:24,593 log 21472 19296 Internal Server Error: /unassign_project/
+ERROR 2024-05-28 21:56:24,767 log 21472 19296 Internal Server Error: /admin_dashboard/update_employee/64/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view prj_emp.views.update_employee didn't return an HttpResponse object. It returned None instead.
+INFO 2024-05-28 21:56:24,988 views 21472 19296 Skills updated for employee 67
+INFO 2024-05-28 21:58:42,430 views 18176 15168 Project "New Project" added successfully
+ERROR 2024-05-28 21:58:42,453 views 18176 15168 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-28 21:58:42,453 log 18176 15168 Bad Request: /add_project/
+INFO 2024-05-28 21:58:42,643 views 18176 15168 Employee form submitted and saved successfully
+INFO 2024-05-28 21:58:42,846 views 18176 15168 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-28 21:58:43,051 views 18176 15168 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-28 21:58:43,051 log 18176 15168 Internal Server Error: /assign_project/
+INFO 2024-05-28 21:58:43,240 views 18176 15168 Employee 15 deleted successfully
+INFO 2024-05-28 21:58:43,445 views 18176 15168 Employee dashboard accessed
+INFO 2024-05-28 21:58:43,635 views 18176 15168 Filtered employee data retrieved
+INFO 2024-05-28 21:58:43,824 views 18176 15168 Employee data retrieved
+INFO 2024-05-28 21:58:44,046 views 18176 15168 Employee details retrieved for employee 27
+INFO 2024-05-28 21:58:44,298 views 18176 15168 Skills retrieved for employee 30
+INFO 2024-05-28 21:58:44,551 views 18176 15168 Project data retrieved
+INFO 2024-05-28 21:58:44,805 views 18176 15168 Request data retrieved
+INFO 2024-05-28 21:58:45,025 views 18176 15168 Home view accessed
+INFO 2024-05-28 21:58:45,609 views 18176 15168 Request 16 rejected successfully
+INFO 2024-05-28 21:58:46,175 views 18176 15168 Employee form submitted and saved successfully
+WARNING 2024-05-28 21:58:46,175 views 18176 15168 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-28 21:58:46,363 views 18176 15168 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-28 21:58:46,363 log 18176 15168 Internal Server Error: /unassign_project/
+ERROR 2024-05-28 21:58:46,553 log 18176 15168 Internal Server Error: /admin_dashboard/update_employee/64/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view prj_emp.views.update_employee didn't return an HttpResponse object. It returned None instead.
+INFO 2024-05-28 21:58:46,820 views 18176 15168 Skills updated for employee 67
+INFO 2024-05-29 13:57:11,674 views 12016 11724 Project "New Project" added successfully
+ERROR 2024-05-29 13:57:11,752 views 12016 11724 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-29 13:57:11,752 log 12016 11724 Bad Request: /add_project/
+INFO 2024-05-29 13:57:11,909 views 12016 11724 Employee form submitted and saved successfully
+INFO 2024-05-29 13:57:12,112 views 12016 11724 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-29 13:57:12,252 views 12016 11724 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 13:57:12,252 log 12016 11724 Internal Server Error: /assign_project/
+INFO 2024-05-29 13:57:12,393 views 12016 11724 Employee 15 deleted successfully
+INFO 2024-05-29 13:57:12,534 views 12016 11724 Employee dashboard accessed
+INFO 2024-05-29 13:57:12,690 views 12016 11724 Filtered employee data retrieved
+INFO 2024-05-29 13:57:12,847 views 12016 11724 Employee data retrieved
+INFO 2024-05-29 13:57:12,987 views 12016 11724 Employee details retrieved for employee 27
+INFO 2024-05-29 13:57:13,128 views 12016 11724 Skills retrieved for employee 30
+INFO 2024-05-29 13:57:13,269 views 12016 11724 Project data retrieved
+INFO 2024-05-29 13:57:13,426 views 12016 11724 Request data retrieved
+INFO 2024-05-29 13:57:13,567 views 12016 11724 Home view accessed
+INFO 2024-05-29 13:57:14,083 views 12016 11724 Request 16 rejected successfully
+INFO 2024-05-29 13:57:14,531 views 12016 11724 Employee form submitted and saved successfully
+WARNING 2024-05-29 13:57:14,547 views 12016 11724 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-29 13:57:14,696 views 12016 11724 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 13:57:14,696 log 12016 11724 Internal Server Error: /unassign_project/
+ERROR 2024-05-29 13:57:14,854 log 12016 11724 Internal Server Error: /admin_dashboard/update_employee/64/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view prj_emp.views.update_employee didn't return an HttpResponse object. It returned None instead.
+INFO 2024-05-29 13:57:15,059 views 12016 11724 Skills updated for employee 67
+INFO 2024-05-29 14:11:57,217 views 18864 15772 Project "New Project" added successfully
+ERROR 2024-05-29 14:11:57,232 views 18864 15772 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-29 14:11:57,232 log 18864 15772 Bad Request: /add_project/
+INFO 2024-05-29 14:11:57,405 views 18864 15772 Employee form submitted and saved successfully
+INFO 2024-05-29 14:11:57,562 views 18864 15772 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-29 14:11:57,703 views 18864 15772 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 14:11:57,703 log 18864 15772 Internal Server Error: /assign_project/
+INFO 2024-05-29 14:11:57,844 views 18864 15772 Employee 15 deleted successfully
+INFO 2024-05-29 14:11:57,985 views 18864 15772 Employee dashboard accessed
+INFO 2024-05-29 14:11:58,157 views 18864 15772 Filtered employee data retrieved
+INFO 2024-05-29 14:11:58,298 views 18864 15772 Employee data retrieved
+INFO 2024-05-29 14:11:58,440 views 18864 15772 Employee details retrieved for employee 27
+INFO 2024-05-29 14:11:58,581 views 18864 15772 Skills retrieved for employee 30
+INFO 2024-05-29 14:11:58,804 views 18864 15772 Project data retrieved
+INFO 2024-05-29 14:11:58,975 views 18864 15772 Request data retrieved
+INFO 2024-05-29 14:11:59,132 views 18864 15772 Home view accessed
+INFO 2024-05-29 14:11:59,570 views 18864 15772 Request 16 rejected successfully
+INFO 2024-05-29 14:12:00,009 views 18864 15772 Employee form submitted and saved successfully
+WARNING 2024-05-29 14:12:00,024 views 18864 15772 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-29 14:12:00,165 views 18864 15772 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 14:12:00,165 log 18864 15772 Internal Server Error: /unassign_project/
+ERROR 2024-05-29 14:12:00,306 log 18864 15772 Internal Server Error: /admin_dashboard/update_employee/64/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view prj_emp.views.update_employee didn't return an HttpResponse object. It returned None instead.
+INFO 2024-05-29 14:12:00,462 views 18864 15772 Skills updated for employee 67
+INFO 2024-05-29 14:14:51,051 views 17560 20824 Project "New Project" added successfully
+ERROR 2024-05-29 14:14:51,083 views 17560 20824 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-29 14:14:51,083 log 17560 20824 Bad Request: /add_project/
+INFO 2024-05-29 14:14:51,286 views 17560 20824 Employee form submitted and saved successfully
+ERROR 2024-05-29 14:14:51,693 views 17560 20824 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 14:14:51,693 log 17560 20824 Internal Server Error: /assign_project/
+INFO 2024-05-29 14:14:51,896 views 17560 20824 Employee 6 deleted successfully
+INFO 2024-05-29 14:14:52,099 views 17560 20824 Employee dashboard accessed
+INFO 2024-05-29 14:14:52,302 views 17560 20824 Filtered employee data retrieved
+INFO 2024-05-29 14:14:52,490 views 17560 20824 Employee data retrieved
+INFO 2024-05-29 14:14:52,694 views 17560 20824 Employee details retrieved for employee 10
+INFO 2024-05-29 14:14:52,897 views 17560 20824 Skills retrieved for employee 11
+INFO 2024-05-29 14:14:53,100 views 17560 20824 Project data retrieved
+INFO 2024-05-29 14:14:53,304 views 17560 20824 Request data retrieved
+INFO 2024-05-29 14:14:53,491 views 17560 20824 Home view accessed
+INFO 2024-05-29 14:14:54,727 views 17560 20824 Employee form submitted and saved successfully
+WARNING 2024-05-29 14:14:54,727 views 17560 20824 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-29 14:14:54,930 views 17560 20824 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 14:14:54,930 log 17560 20824 Internal Server Error: /unassign_project/
+ERROR 2024-05-29 14:14:55,133 log 17560 20824 Internal Server Error: /admin_dashboard/update_employee/23/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view prj_emp.views.update_employee didn't return an HttpResponse object. It returned None instead.
+INFO 2024-05-29 14:14:55,352 views 17560 20824 Skills updated for employee 24
+INFO 2024-05-29 14:18:36,787 views 14784 13832 Project "New Project" added successfully
+ERROR 2024-05-29 14:18:36,808 views 14784 13832 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-29 14:18:36,809 log 14784 13832 Bad Request: /add_project/
+INFO 2024-05-29 14:18:36,961 views 14784 13832 Employee form submitted and saved successfully
+INFO 2024-05-29 14:18:37,101 views 14784 13832 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-29 14:18:37,242 views 14784 13832 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 14:18:37,242 log 14784 13832 Internal Server Error: /assign_project/
+INFO 2024-05-29 14:18:37,398 views 14784 13832 Employee 15 deleted successfully
+INFO 2024-05-29 14:18:37,539 views 14784 13832 Employee dashboard accessed
+INFO 2024-05-29 14:18:37,696 views 14784 13832 Filtered employee data retrieved
+INFO 2024-05-29 14:18:37,836 views 14784 13832 Employee data retrieved
+INFO 2024-05-29 14:18:37,977 views 14784 13832 Employee details retrieved for employee 27
+INFO 2024-05-29 14:18:38,133 views 14784 13832 Skills retrieved for employee 30
+INFO 2024-05-29 14:18:38,274 views 14784 13832 Project data retrieved
+INFO 2024-05-29 14:18:38,431 views 14784 13832 Request data retrieved
+INFO 2024-05-29 14:18:38,572 views 14784 13832 Home view accessed
+INFO 2024-05-29 14:18:39,009 views 14784 13832 Request 16 rejected successfully
+INFO 2024-05-29 14:18:39,447 views 14784 13832 Employee form submitted and saved successfully
+WARNING 2024-05-29 14:18:39,447 views 14784 13832 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-29 14:18:39,604 views 14784 13832 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 14:18:39,604 log 14784 13832 Internal Server Error: /unassign_project/
+ERROR 2024-05-29 14:18:39,744 log 14784 13832 Internal Server Error: /admin_dashboard/update_employee/64/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view prj_emp.views.update_employee didn't return an HttpResponse object. It returned None instead.
+INFO 2024-05-29 14:18:39,886 views 14784 13832 Skills updated for employee 67
+INFO 2024-05-29 14:22:50,505 views 15836 11840 Project "New Project" added successfully
+ERROR 2024-05-29 14:22:50,536 views 15836 11840 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-29 14:22:50,536 log 15836 11840 Bad Request: /add_project/
+INFO 2024-05-29 14:22:50,677 views 15836 11840 Employee form submitted and saved successfully
+INFO 2024-05-29 14:22:50,834 views 15836 11840 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-29 14:22:50,974 views 15836 11840 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 14:22:50,974 log 15836 11840 Internal Server Error: /assign_project/
+INFO 2024-05-29 14:22:51,115 views 15836 11840 Employee 15 deleted successfully
+INFO 2024-05-29 14:22:51,271 views 15836 11840 Employee dashboard accessed
+INFO 2024-05-29 14:22:51,412 views 15836 11840 Filtered employee data retrieved
+INFO 2024-05-29 14:22:51,552 views 15836 11840 Employee data retrieved
+INFO 2024-05-29 14:22:51,693 views 15836 11840 Employee details retrieved for employee 27
+INFO 2024-05-29 14:22:51,834 views 15836 11840 Skills retrieved for employee 30
+INFO 2024-05-29 14:22:51,990 views 15836 11840 Project data retrieved
+INFO 2024-05-29 14:22:52,131 views 15836 11840 Request data retrieved
+INFO 2024-05-29 14:22:52,273 views 15836 11840 Home view accessed
+INFO 2024-05-29 14:22:52,711 views 15836 11840 Request 16 rejected successfully
+INFO 2024-05-29 14:22:53,148 views 15836 11840 Employee form submitted and saved successfully
+WARNING 2024-05-29 14:22:53,148 views 15836 11840 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-29 14:22:53,291 views 15836 11840 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 14:22:53,291 log 15836 11840 Internal Server Error: /unassign_project/
+ERROR 2024-05-29 14:22:53,446 log 15836 11840 Internal Server Error: /admin_dashboard/update_employee/64/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view prj_emp.views.update_employee didn't return an HttpResponse object. It returned None instead.
+INFO 2024-05-29 14:22:53,588 views 15836 11840 Skills updated for employee 67
+INFO 2024-05-29 14:23:35,733 views 14068 21212 Project "New Project" added successfully
+ERROR 2024-05-29 14:23:35,749 views 14068 21212 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-29 14:23:35,749 log 14068 21212 Bad Request: /add_project/
+INFO 2024-05-29 14:23:35,905 views 14068 21212 Employee form submitted and saved successfully
+INFO 2024-05-29 14:23:36,046 views 14068 21212 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-29 14:23:36,187 views 14068 21212 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 14:23:36,187 log 14068 21212 Internal Server Error: /assign_project/
+INFO 2024-05-29 14:23:36,344 views 14068 21212 Employee 15 deleted successfully
+INFO 2024-05-29 14:23:36,485 views 14068 21212 Employee dashboard accessed
+INFO 2024-05-29 14:23:36,626 views 14068 21212 Filtered employee data retrieved
+INFO 2024-05-29 14:23:36,767 views 14068 21212 Employee data retrieved
+INFO 2024-05-29 14:23:36,925 views 14068 21212 Employee details retrieved for employee 27
+INFO 2024-05-29 14:23:37,065 views 14068 21212 Skills retrieved for employee 30
+INFO 2024-05-29 14:23:37,222 views 14068 21212 Project data retrieved
+INFO 2024-05-29 14:23:37,364 views 14068 21212 Request data retrieved
+INFO 2024-05-29 14:23:37,505 views 14068 21212 Home view accessed
+INFO 2024-05-29 14:23:37,945 views 14068 21212 Request 16 rejected successfully
+INFO 2024-05-29 14:23:38,382 views 14068 21212 Employee form submitted and saved successfully
+WARNING 2024-05-29 14:23:38,382 views 14068 21212 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-29 14:23:38,523 views 14068 21212 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 14:23:38,523 log 14068 21212 Internal Server Error: /unassign_project/
+ERROR 2024-05-29 14:23:38,680 log 14068 21212 Internal Server Error: /admin_dashboard/update_employee/64/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view prj_emp.views.update_employee didn't return an HttpResponse object. It returned None instead.
+INFO 2024-05-29 14:23:38,821 views 14068 21212 Skills updated for employee 67
+INFO 2024-05-29 14:37:39,331 views 9696 16440 Project "New Project" added successfully
+ERROR 2024-05-29 14:37:39,362 views 9696 16440 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-29 14:37:39,362 log 9696 16440 Bad Request: /add_project/
+INFO 2024-05-29 14:37:39,519 views 9696 16440 Employee form submitted and saved successfully
+INFO 2024-05-29 14:37:39,675 views 9696 16440 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-29 14:37:39,816 views 9696 16440 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 14:37:39,816 log 9696 16440 Internal Server Error: /assign_project/
+INFO 2024-05-29 14:37:39,973 views 9696 16440 Employee 15 deleted successfully
+INFO 2024-05-29 14:37:40,098 views 9696 16440 Employee dashboard accessed
+INFO 2024-05-29 14:37:40,254 views 9696 16440 Filtered employee data retrieved
+INFO 2024-05-29 14:37:40,395 views 9696 16440 Employee data retrieved
+INFO 2024-05-29 14:37:40,545 views 9696 16440 Employee details retrieved for employee 27
+INFO 2024-05-29 14:37:40,700 views 9696 16440 Skills retrieved for employee 30
+INFO 2024-05-29 14:37:40,850 views 9696 16440 Project data retrieved
+INFO 2024-05-29 14:37:40,994 views 9696 16440 Request data retrieved
+INFO 2024-05-29 14:37:41,149 views 9696 16440 Home view accessed
+INFO 2024-05-29 14:37:41,598 views 9696 16440 Request 16 rejected successfully
+INFO 2024-05-29 14:37:42,020 views 9696 16440 Employee form submitted and saved successfully
+WARNING 2024-05-29 14:37:42,020 views 9696 16440 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-29 14:37:42,161 views 9696 16440 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 14:37:42,161 log 9696 16440 Internal Server Error: /unassign_project/
+WARNING 2024-05-29 14:37:42,317 log 9696 16440 Method Not Allowed: /admin_dashboard/update_employee/64/
+INFO 2024-05-29 14:37:42,458 views 9696 16440 Skills updated for employee 67
+INFO 2024-05-29 14:37:59,531 autoreload 19592 7704 Watching for file changes with StatReloader
+INFO 2024-05-29 14:38:01,153 views 19592 15684 Home view accessed
+INFO 2024-05-29 14:38:01,164 basehttp 19592 15684 "GET / HTTP/1.1" 200 2647
+WARNING 2024-05-29 14:38:01,455 log 19592 15684 Not Found: /favicon.ico
+WARNING 2024-05-29 14:38:01,455 basehttp 19592 15684 "GET /favicon.ico HTTP/1.1" 404 5510
+INFO 2024-05-29 14:38:03,203 basehttp 19592 21120 "GET /login/ HTTP/1.1" 200 2000
+INFO 2024-05-29 14:38:06,952 views 19592 21120 User anushka_sohani logged in successfully
+INFO 2024-05-29 14:38:06,969 basehttp 19592 21120 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-05-29 14:38:07,037 basehttp 19592 21120 "GET /admin_dashboard/ HTTP/1.1" 200 29376
+INFO 2024-05-29 14:38:07,068 views 19592 21120 Employee data retrieved
+INFO 2024-05-29 14:38:07,081 basehttp 19592 21120 "GET /api/employees/ HTTP/1.1" 200 1153
+INFO 2024-05-29 14:38:07,093 views 19592 23360 Project data retrieved
+INFO 2024-05-29 14:38:07,094 basehttp 19592 23360 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-29 14:38:11,449 views 19592 23360 Employee details retrieved for employee 22
+INFO 2024-05-29 14:38:11,451 basehttp 19592 23360 "GET /get_employee_details/22/ HTTP/1.1" 200 135
+INFO 2024-05-29 14:38:54,097 views 19592 11760 Employee 22 details updated successfully
+INFO 2024-05-29 14:38:54,098 basehttp 19592 11760 "PUT /admin_dashboard/update_employee/22/ HTTP/1.1" 200 52
+INFO 2024-05-29 14:39:31,409 views 19592 21356 Employee 22 details updated successfully
+INFO 2024-05-29 14:39:31,409 basehttp 19592 21356 "PUT /admin_dashboard/update_employee/22/ HTTP/1.1" 200 52
+INFO 2024-05-29 14:39:42,959 views 19592 20732 Employee data retrieved
+INFO 2024-05-29 14:39:42,959 basehttp 19592 20732 "GET /api/employees/ HTTP/1.1" 200 1166
+INFO 2024-05-29 14:39:47,851 views 19592 10460 Employee data retrieved
+INFO 2024-05-29 14:39:47,851 basehttp 19592 10460 "GET /api/employees/ HTTP/1.1" 200 1166
+INFO 2024-05-29 14:39:50,717 basehttp 19592 10460 "GET /admin_dashboard/ HTTP/1.1" 200 29376
+INFO 2024-05-29 14:39:50,753 views 19592 10460 Project data retrieved
+INFO 2024-05-29 14:39:50,753 basehttp 19592 10460 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-29 14:39:50,753 views 19592 13832 Employee data retrieved
+INFO 2024-05-29 14:39:50,756 basehttp 19592 13832 "GET /api/employees/ HTTP/1.1" 200 1166
+INFO 2024-05-29 14:39:51,501 views 19592 13832 Employee data retrieved
+INFO 2024-05-29 14:39:51,501 basehttp 19592 13832 "GET /api/employees/ HTTP/1.1" 200 1166
+INFO 2024-05-29 15:07:08,342 views 19592 10036 Home view accessed
+INFO 2024-05-29 15:07:08,349 basehttp 19592 10036 "GET / HTTP/1.1" 200 2647
+INFO 2024-05-29 15:07:09,434 basehttp 19592 10036 "GET /login/ HTTP/1.1" 200 2000
+INFO 2024-05-29 15:07:18,760 views 19592 21008 User akash_singh logged in successfully
+INFO 2024-05-29 15:07:18,760 basehttp 19592 21008 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-05-29 15:07:18,794 basehttp 19592 21008 "GET /manager_dashboard/ HTTP/1.1" 200 13979
+INFO 2024-05-29 15:07:20,826 views 19592 21008 Employee data retrieved
+INFO 2024-05-29 15:07:20,826 basehttp 19592 21008 "GET /api/employees/ HTTP/1.1" 200 1166
+INFO 2024-05-29 15:07:27,014 views 19592 19664 Employee data retrieved
+INFO 2024-05-29 15:07:27,014 basehttp 19592 19664 "GET /api/employees/ HTTP/1.1" 200 1166
+INFO 2024-05-29 15:07:41,152 views 19592 7720 Home view accessed
+INFO 2024-05-29 15:07:41,158 basehttp 19592 7720 "GET / HTTP/1.1" 200 2647
+INFO 2024-05-29 15:07:43,885 basehttp 19592 10824 "GET /login/ HTTP/1.1" 200 2000
+INFO 2024-05-29 15:07:50,738 views 19592 10824 User akash_singh logged in successfully
+INFO 2024-05-29 15:07:50,743 basehttp 19592 10824 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-05-29 15:07:50,766 basehttp 19592 10824 "GET /manager_dashboard/ HTTP/1.1" 200 13979
+INFO 2024-05-29 15:08:00,199 views 19592 15100 Filtered employee data retrieved
+INFO 2024-05-29 15:08:00,199 basehttp 19592 15100 "GET /api/filter_employees/?skills=Git&unassigned=false HTTP/1.1" 200 458
+INFO 2024-05-29 15:08:25,761 views 12984 18584 Project "New Project" added successfully
+ERROR 2024-05-29 15:08:25,777 views 12984 18584 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-29 15:08:25,777 log 12984 18584 Bad Request: /add_project/
+INFO 2024-05-29 15:08:25,933 views 12984 18584 Employee form submitted and saved successfully
+INFO 2024-05-29 15:08:26,089 views 12984 18584 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-29 15:08:26,231 views 12984 18584 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 15:08:26,231 log 12984 18584 Internal Server Error: /assign_project/
+INFO 2024-05-29 15:08:26,387 views 12984 18584 Employee 15 deleted successfully
+INFO 2024-05-29 15:08:26,512 views 12984 18584 Employee dashboard accessed
+INFO 2024-05-29 15:08:26,652 views 12984 18584 Filtered employee data retrieved
+INFO 2024-05-29 15:08:26,809 views 12984 18584 Employee data retrieved
+INFO 2024-05-29 15:08:26,949 views 12984 18584 Employee details retrieved for employee 27
+INFO 2024-05-29 15:08:27,090 views 12984 18584 Skills retrieved for employee 30
+INFO 2024-05-29 15:08:27,231 views 12984 18584 Project data retrieved
+INFO 2024-05-29 15:08:27,372 views 12984 18584 Request data retrieved
+INFO 2024-05-29 15:08:27,528 views 12984 18584 Home view accessed
+INFO 2024-05-29 15:08:27,950 views 12984 18584 Request 16 rejected successfully
+INFO 2024-05-29 15:08:28,388 views 12984 18584 Employee form submitted and saved successfully
+WARNING 2024-05-29 15:08:28,388 views 12984 18584 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-29 15:08:28,529 views 12984 18584 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 15:08:28,529 log 12984 18584 Internal Server Error: /unassign_project/
+WARNING 2024-05-29 15:08:28,670 log 12984 18584 Method Not Allowed: /admin_dashboard/update_employee/64/
+INFO 2024-05-29 15:08:28,826 views 12984 18584 Skills updated for employee 67
+INFO 2024-05-29 15:14:13,602 views 20516 16992 Project "New Project" added successfully
+ERROR 2024-05-29 15:14:13,635 views 20516 16992 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-29 15:14:13,635 log 20516 16992 Bad Request: /add_project/
+INFO 2024-05-29 15:14:13,785 views 20516 16992 Employee form submitted and saved successfully
+INFO 2024-05-29 15:14:13,948 views 20516 16992 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-29 15:14:14,120 views 20516 16992 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 15:14:14,120 log 20516 16992 Internal Server Error: /assign_project/
+INFO 2024-05-29 15:14:14,277 views 20516 16992 Employee 15 deleted successfully
+INFO 2024-05-29 15:14:14,417 views 20516 16992 Employee dashboard accessed
+INFO 2024-05-29 15:14:14,574 views 20516 16992 Filtered employee data retrieved
+INFO 2024-05-29 15:14:14,715 views 20516 16992 Employee data retrieved
+INFO 2024-05-29 15:14:14,871 views 20516 16992 Employee details retrieved for employee 27
+INFO 2024-05-29 15:14:15,012 views 20516 16992 Skills retrieved for employee 30
+INFO 2024-05-29 15:14:15,168 views 20516 16992 Project data retrieved
+INFO 2024-05-29 15:14:15,309 views 20516 16992 Request data retrieved
+INFO 2024-05-29 15:14:15,450 views 20516 16992 Home view accessed
+INFO 2024-05-29 15:14:15,904 views 20516 16992 Request 16 rejected successfully
+INFO 2024-05-29 15:14:16,342 views 20516 16992 Employee form submitted and saved successfully
+WARNING 2024-05-29 15:14:16,358 views 20516 16992 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-29 15:14:16,499 views 20516 16992 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 15:14:16,499 log 20516 16992 Internal Server Error: /unassign_project/
+WARNING 2024-05-29 15:14:16,640 log 20516 16992 Method Not Allowed: /admin_dashboard/update_employee/64/
+INFO 2024-05-29 15:14:16,797 views 20516 16992 Skills updated for employee 67
+INFO 2024-05-29 15:20:19,037 views 12700 22892 Project "New Project" added successfully
+ERROR 2024-05-29 15:20:19,052 views 12700 22892 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-29 15:20:19,052 log 12700 22892 Bad Request: /add_project/
+INFO 2024-05-29 15:20:19,210 views 12700 22892 Employee form submitted and saved successfully
+INFO 2024-05-29 15:20:19,366 views 12700 22892 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-29 15:20:19,507 views 12700 22892 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 15:20:19,507 log 12700 22892 Internal Server Error: /assign_project/
+INFO 2024-05-29 15:20:19,647 views 12700 22892 Employee 15 deleted successfully
+INFO 2024-05-29 15:20:19,788 views 12700 22892 Employee dashboard accessed
+INFO 2024-05-29 15:20:19,929 views 12700 22892 Filtered employee data retrieved
+INFO 2024-05-29 15:20:20,070 views 12700 22892 Employee data retrieved
+INFO 2024-05-29 15:20:20,227 views 12700 22892 Employee details retrieved for employee 27
+INFO 2024-05-29 15:20:20,368 views 12700 22892 Skills retrieved for employee 30
+INFO 2024-05-29 15:20:20,509 views 12700 22892 Project data retrieved
+INFO 2024-05-29 15:20:20,665 views 12700 22892 Request data retrieved
+INFO 2024-05-29 15:20:20,806 views 12700 22892 Home view accessed
+INFO 2024-05-29 15:20:21,230 views 12700 22892 Request 16 rejected successfully
+INFO 2024-05-29 15:20:21,668 views 12700 22892 Employee form submitted and saved successfully
+WARNING 2024-05-29 15:20:21,668 views 12700 22892 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-29 15:20:21,825 views 12700 22892 Employee project not found
+WARNING 2024-05-29 15:20:21,825 log 12700 22892 Not Found: /unassign_project/
+WARNING 2024-05-29 15:20:21,966 log 12700 22892 Method Not Allowed: /admin_dashboard/update_employee/64/
+INFO 2024-05-29 15:20:22,107 views 12700 22892 Skills updated for employee 67
+INFO 2024-05-29 15:30:14,349 views 18196 8660 Project "New Project" added successfully
+ERROR 2024-05-29 15:30:14,365 views 18196 8660 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-29 15:30:14,380 log 18196 8660 Bad Request: /add_project/
+INFO 2024-05-29 15:30:14,521 views 18196 8660 Employee form submitted and saved successfully
+INFO 2024-05-29 15:30:14,662 views 18196 8660 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-29 15:30:14,803 views 18196 8660 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 15:30:14,803 log 18196 8660 Internal Server Error: /assign_project/
+INFO 2024-05-29 15:30:14,959 views 18196 8660 Employee 15 deleted successfully
+INFO 2024-05-29 15:30:15,100 views 18196 8660 Employee dashboard accessed
+INFO 2024-05-29 15:30:15,241 views 18196 8660 Filtered employee data retrieved
+INFO 2024-05-29 15:30:15,381 views 18196 8660 Employee data retrieved
+INFO 2024-05-29 15:30:15,522 views 18196 8660 Employee details retrieved for employee 27
+INFO 2024-05-29 15:30:15,663 views 18196 8660 Skills retrieved for employee 30
+INFO 2024-05-29 15:30:15,803 views 18196 8660 Project data retrieved
+INFO 2024-05-29 15:30:15,944 views 18196 8660 Request data retrieved
+INFO 2024-05-29 15:30:16,085 views 18196 8660 Home view accessed
+INFO 2024-05-29 15:30:16,539 views 18196 8660 Request 16 rejected successfully
+INFO 2024-05-29 15:30:16,961 views 18196 8660 Employee form submitted and saved successfully
+WARNING 2024-05-29 15:30:16,961 views 18196 8660 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-29 15:30:17,102 views 18196 8660 Employee project not found
+WARNING 2024-05-29 15:30:17,242 log 18196 8660 Method Not Allowed: /admin_dashboard/update_employee/64/
+INFO 2024-05-29 15:30:17,398 views 18196 8660 Skills updated for employee 67
+INFO 2024-05-29 15:32:21,275 autoreload 14828 21436 Watching for file changes with StatReloader
+INFO 2024-05-29 15:32:21,596 basehttp 14828 21884 "GET /admin_dashboard/ HTTP/1.1" 200 29376
+INFO 2024-05-29 15:32:21,672 views 14828 21884 Project data retrieved
+INFO 2024-05-29 15:32:21,672 views 14828 20792 Employee data retrieved
+INFO 2024-05-29 15:32:21,672 basehttp 14828 20792 "GET /api/employees/ HTTP/1.1" 200 1166
+INFO 2024-05-29 15:32:21,674 basehttp 14828 21884 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-29 15:32:25,265 views 14828 21884 Project unassigned from employee 1 successfully
+INFO 2024-05-29 15:32:25,265 basehttp 14828 21884 "POST /unassign_project/ HTTP/1.1" 200 78
+ERROR 2024-05-29 15:32:41,494 views 14828 21884 Employee project not found
+WARNING 2024-05-29 15:32:41,494 log 14828 21884 Not Found: /unassign_project/
+WARNING 2024-05-29 15:32:41,494 basehttp 14828 21884 "POST /unassign_project/ HTTP/1.1" 404 58
+ERROR 2024-05-29 15:32:48,830 views 14828 21884 Employee project not found
+WARNING 2024-05-29 15:32:48,830 log 14828 21884 Not Found: /unassign_project/
+WARNING 2024-05-29 15:32:48,830 basehttp 14828 21884 "POST /unassign_project/ HTTP/1.1" 404 58
+INFO 2024-05-29 15:33:07,126 views 14828 21884 Project unassigned from employee 2 successfully
+INFO 2024-05-29 15:33:07,127 basehttp 14828 21884 "POST /unassign_project/ HTTP/1.1" 200 78
+INFO 2024-05-29 15:33:20,818 views 14828 21884 Project 1 assigned to employee 2 successfully
+INFO 2024-05-29 15:33:20,818 basehttp 14828 21884 "POST /assign_project/ HTTP/1.1" 200 74
+INFO 2024-05-29 15:33:37,775 views 14828 21884 Project 1 already assigned to employee 3
+INFO 2024-05-29 15:33:37,776 basehttp 14828 21884 "POST /assign_project/ HTTP/1.1" 200 69
+INFO 2024-05-29 15:34:00,819 views 14828 21884 Project 1 already assigned to employee 3
+INFO 2024-05-29 15:34:00,820 basehttp 14828 21884 "POST /assign_project/ HTTP/1.1" 200 69
+INFO 2024-05-29 15:34:17,979 views 14828 21884 Filtered employee data retrieved
+INFO 2024-05-29 15:34:17,979 basehttp 14828 21884 "GET /api/filter_employees/?skills=&unassigned=true HTTP/1.1" 200 125
+INFO 2024-05-29 15:34:38,337 basehttp 14828 21884 "GET /admin_dashboard/ HTTP/1.1" 200 29376
+INFO 2024-05-29 15:34:38,382 views 14828 21884 Project data retrieved
+INFO 2024-05-29 15:34:38,383 basehttp 14828 21884 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-29 15:34:38,383 views 14828 20792 Employee data retrieved
+INFO 2024-05-29 15:34:38,385 basehttp 14828 20792 "GET /api/employees/ HTTP/1.1" 200 1166
+INFO 2024-05-29 15:34:48,660 views 14828 20792 Project 3 assigned to employee 1 successfully
+INFO 2024-05-29 15:34:48,660 basehttp 14828 20792 "POST /assign_project/ HTTP/1.1" 200 74
+INFO 2024-05-29 15:34:58,648 basehttp 14828 20792 "GET /manager_dashboard/ HTTP/1.1" 200 13979
+INFO 2024-05-29 15:35:01,463 views 14828 20792 Filtered employee data retrieved
+INFO 2024-05-29 15:35:01,463 basehttp 14828 20792 "GET /api/filter_employees/?skills=&unassigned=true HTTP/1.1" 200 2
+INFO 2024-05-29 15:35:31,104 views 14828 20792 Employee data retrieved
+INFO 2024-05-29 15:35:31,105 basehttp 14828 20792 "GET /api/employees/ HTTP/1.1" 200 1166
+INFO 2024-05-29 15:35:50,796 views 14828 20792 Project unassigned from employee 1 successfully
+INFO 2024-05-29 15:35:50,797 basehttp 14828 20792 "POST /unassign_project/ HTTP/1.1" 200 78
+INFO 2024-05-29 15:35:57,761 views 14828 20792 Project 3 assigned to employee 1 successfully
+INFO 2024-05-29 15:35:57,776 basehttp 14828 20792 "POST /assign_project/ HTTP/1.1" 200 74
+INFO 2024-05-29 15:36:17,222 views 14828 20792 Project 3 already assigned to employee 1
+INFO 2024-05-29 15:36:17,222 basehttp 14828 20792 "POST /assign_project/ HTTP/1.1" 200 69
+ERROR 2024-05-29 15:36:24,276 views 14828 20792 Error assigning project: (1062, "Duplicate entry '1' for key 'employee_id'")
+ERROR 2024-05-29 15:36:24,276 log 14828 20792 Internal Server Error: /assign_project/
+ERROR 2024-05-29 15:36:24,277 basehttp 14828 20792 "POST /assign_project/ HTTP/1.1" 500 84
+INFO 2024-05-29 15:36:29,968 views 14828 20792 Project 3 already assigned to employee 1
+INFO 2024-05-29 15:36:29,968 basehttp 14828 20792 "POST /assign_project/ HTTP/1.1" 200 69
+INFO 2024-05-29 15:36:40,248 autoreload 14828 21436 C:\prj_emp\prj_emp\views.py changed, reloading.
+INFO 2024-05-29 15:36:41,156 autoreload 12624 13600 Watching for file changes with StatReloader
+INFO 2024-05-29 15:36:46,900 autoreload 1560 19180 Watching for file changes with StatReloader
+INFO 2024-05-29 15:36:50,270 basehttp 1560 9072 "GET /admin_dashboard/ HTTP/1.1" 200 29376
+INFO 2024-05-29 15:36:50,303 views 1560 9072 Project data retrieved
+INFO 2024-05-29 15:36:50,303 basehttp 1560 9072 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-29 15:36:50,309 views 1560 14536 Employee data retrieved
+INFO 2024-05-29 15:36:50,310 basehttp 1560 14536 "GET /api/employees/ HTTP/1.1" 200 1166
+INFO 2024-05-29 15:36:52,408 basehttp 1560 14536 "GET /manager_dashboard/ HTTP/1.1" 200 13979
+ERROR 2024-05-29 15:36:56,237 views 1560 14536 Error assigning project: (1062, "Duplicate entry '1' for key 'employee_id'")
+ERROR 2024-05-29 15:36:56,237 log 1560 14536 Internal Server Error: /assign_project/
+ERROR 2024-05-29 15:36:56,238 basehttp 1560 14536 "POST /assign_project/ HTTP/1.1" 500 84
+INFO 2024-05-29 15:37:07,219 views 1560 14536 Project 3 already assigned to employee 1
+INFO 2024-05-29 15:37:07,220 basehttp 1560 14536 "POST /assign_project/ HTTP/1.1" 200 69
+INFO 2024-05-29 15:39:08,729 views 1560 14536 Project unassigned from employee 1 successfully
+INFO 2024-05-29 15:39:08,729 basehttp 1560 14536 "POST /unassign_project/ HTTP/1.1" 200 78
+INFO 2024-05-29 15:39:13,667 views 1560 14536 Project 3 assigned to employee 1 successfully
+INFO 2024-05-29 15:39:13,667 basehttp 1560 14536 "POST /assign_project/ HTTP/1.1" 200 74
+INFO 2024-05-29 15:39:31,092 views 1560 14536 Project 3 already assigned to employee 22
+INFO 2024-05-29 15:39:31,093 basehttp 1560 14536 "POST /assign_project/ HTTP/1.1" 200 69
+INFO 2024-05-29 15:39:33,377 views 1560 14536 Project unassigned from employee 22 successfully
+INFO 2024-05-29 15:39:33,377 basehttp 1560 14536 "POST /unassign_project/ HTTP/1.1" 200 78
+INFO 2024-05-29 15:39:37,928 views 1560 14536 Project 3 assigned to employee 22 successfully
+INFO 2024-05-29 15:39:37,928 basehttp 1560 14536 "POST /assign_project/ HTTP/1.1" 200 74
+INFO 2024-05-29 15:39:51,326 views 1560 14536 Employee data retrieved
+INFO 2024-05-29 15:39:51,326 basehttp 1560 14536 "GET /api/employees/ HTTP/1.1" 200 1166
+INFO 2024-05-29 15:47:00,951 views 1560 14452 Project unassigned from employee 22 successfully
+INFO 2024-05-29 15:47:00,951 basehttp 1560 14452 "POST /unassign_project/ HTTP/1.1" 200 78
+INFO 2024-05-29 15:47:05,179 views 1560 14452 Project 3 assigned to employee 22 successfully
+INFO 2024-05-29 15:47:05,179 basehttp 1560 14452 "POST /assign_project/ HTTP/1.1" 200 74
+INFO 2024-05-29 15:47:54,852 views 1560 14452 Filtered employee data retrieved
+INFO 2024-05-29 15:47:54,852 basehttp 1560 14452 "GET /api/filter_employees/?skills=&unassigned=true HTTP/1.1" 200 2
+INFO 2024-05-29 15:47:58,605 views 1560 14452 Project unassigned from employee 22 successfully
+INFO 2024-05-29 15:47:58,605 basehttp 1560 14452 "POST /unassign_project/ HTTP/1.1" 200 78
+INFO 2024-05-29 15:48:01,627 views 1560 14452 Filtered employee data retrieved
+INFO 2024-05-29 15:48:01,627 basehttp 1560 14452 "GET /api/filter_employees/?skills=&unassigned=true HTTP/1.1" 200 160
+INFO 2024-05-29 15:48:05,271 views 1560 14452 Project 3 assigned to employee 22 successfully
+INFO 2024-05-29 15:48:05,271 basehttp 1560 14452 "POST /assign_project/ HTTP/1.1" 200 74
+INFO 2024-05-29 15:48:08,447 views 1560 14452 Filtered employee data retrieved
+INFO 2024-05-29 15:48:08,447 basehttp 1560 14452 "GET /api/filter_employees/?skills=&unassigned=true HTTP/1.1" 200 2
+INFO 2024-05-29 15:48:16,589 autoreload 1560 19180 C:\prj_emp\prj_emp\views.py changed, reloading.
+INFO 2024-05-29 15:48:17,707 autoreload 22620 3968 Watching for file changes with StatReloader
+INFO 2024-05-29 15:49:07,841 views 21372 18296 Project "New Project" added successfully
+ERROR 2024-05-29 15:49:07,857 views 21372 18296 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-29 15:49:07,857 log 21372 18296 Bad Request: /add_project/
+INFO 2024-05-29 15:49:07,997 views 21372 18296 Employee form submitted and saved successfully
+INFO 2024-05-29 15:49:08,169 views 21372 18296 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-29 15:49:08,294 views 21372 18296 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-29 15:49:08,294 log 21372 18296 Internal Server Error: /assign_project/
+INFO 2024-05-29 15:49:08,450 views 21372 18296 Employee 15 deleted successfully
+INFO 2024-05-29 15:49:08,575 views 21372 18296 Employee dashboard accessed
+INFO 2024-05-29 15:49:08,716 views 21372 18296 Filtered employee data retrieved
+INFO 2024-05-29 15:49:08,856 views 21372 18296 Employee data retrieved
+INFO 2024-05-29 15:49:08,997 views 21372 18296 Employee details retrieved for employee 27
+INFO 2024-05-29 15:49:09,138 views 21372 18296 Skills retrieved for employee 30
+INFO 2024-05-29 15:49:09,278 views 21372 18296 Project data retrieved
+INFO 2024-05-29 15:49:09,420 views 21372 18296 Request data retrieved
+INFO 2024-05-29 15:49:09,560 views 21372 18296 Home view accessed
+INFO 2024-05-29 15:49:09,982 views 21372 18296 Request 16 rejected successfully
+INFO 2024-05-29 15:49:10,389 views 21372 18296 Employee form submitted and saved successfully
+WARNING 2024-05-29 15:49:10,404 views 21372 18296 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-29 15:49:10,529 views 21372 18296 Employee project not found
+WARNING 2024-05-29 15:49:10,670 log 21372 18296 Method Not Allowed: /admin_dashboard/update_employee/64/
+INFO 2024-05-29 15:49:10,826 views 21372 18296 Skills updated for employee 67
+INFO 2024-05-30 16:05:38,380 views 4912 17048 Project "New Project" added successfully
+ERROR 2024-05-30 16:05:38,475 views 4912 17048 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-30 16:05:38,475 log 4912 17048 Bad Request: /add_project/
+INFO 2024-05-30 16:05:38,745 views 4912 17048 Employee form submitted and saved successfully
+INFO 2024-05-30 16:05:39,045 views 4912 17048 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-30 16:05:39,334 views 4912 17048 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 16:05:39,334 log 4912 17048 Internal Server Error: /assign_project/
+INFO 2024-05-30 16:05:39,646 views 4912 17048 Employee 15 deleted successfully
+INFO 2024-05-30 16:05:39,851 views 4912 17048 Employee dashboard accessed
+INFO 2024-05-30 16:05:40,070 views 4912 17048 Filtered employee data retrieved
+INFO 2024-05-30 16:05:40,275 views 4912 17048 Employee data retrieved
+INFO 2024-05-30 16:05:40,463 views 4912 17048 Employee details retrieved for employee 27
+INFO 2024-05-30 16:05:40,653 views 4912 17048 Skills retrieved for employee 30
+INFO 2024-05-30 16:05:40,905 views 4912 17048 Project data retrieved
+INFO 2024-05-30 16:05:41,094 views 4912 17048 Request data retrieved
+INFO 2024-05-30 16:05:41,282 views 4912 17048 Home view accessed
+INFO 2024-05-30 16:05:41,959 views 4912 17048 Request 16 rejected successfully
+INFO 2024-05-30 16:05:42,986 views 4912 17048 Employee form submitted and saved successfully
+WARNING 2024-05-30 16:05:43,008 views 4912 17048 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 16:05:43,443 views 4912 17048 Employee project not found
+WARNING 2024-05-30 16:05:43,825 log 4912 17048 Method Not Allowed: /admin_dashboard/update_employee/64/
+INFO 2024-05-30 16:05:44,266 views 4912 17048 Skills updated for employee 67
+INFO 2024-05-30 16:09:10,047 views 14852 20420 Project "New Project" added successfully
+ERROR 2024-05-30 16:09:10,079 views 14852 20420 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-30 16:09:10,079 log 14852 20420 Bad Request: /add_project/
+INFO 2024-05-30 16:09:10,219 views 14852 20420 Employee form submitted and saved successfully
+INFO 2024-05-30 16:09:10,375 views 14852 20420 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-30 16:09:10,516 views 14852 20420 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 16:09:10,516 log 14852 20420 Internal Server Error: /assign_project/
+INFO 2024-05-30 16:09:10,657 views 14852 20420 Employee 15 deleted successfully
+INFO 2024-05-30 16:09:10,798 views 14852 20420 Employee dashboard accessed
+INFO 2024-05-30 16:09:10,970 views 14852 20420 Filtered employee data retrieved
+INFO 2024-05-30 16:09:11,111 views 14852 20420 Employee data retrieved
+INFO 2024-05-30 16:09:11,252 views 14852 20420 Employee details retrieved for employee 27
+INFO 2024-05-30 16:09:11,393 views 14852 20420 Skills retrieved for employee 30
+INFO 2024-05-30 16:09:11,534 views 14852 20420 Project data retrieved
+INFO 2024-05-30 16:09:11,691 views 14852 20420 Request data retrieved
+INFO 2024-05-30 16:09:11,832 views 14852 20420 Home view accessed
+INFO 2024-05-30 16:09:12,269 views 14852 20420 Request 16 rejected successfully
+INFO 2024-05-30 16:09:12,709 views 14852 20420 Employee form submitted and saved successfully
+WARNING 2024-05-30 16:09:12,724 views 14852 20420 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 16:09:12,866 views 14852 20420 Employee project not found
+WARNING 2024-05-30 16:09:13,022 log 14852 20420 Method Not Allowed: /admin_dashboard/update_employee/64/
+INFO 2024-05-30 16:09:13,163 views 14852 20420 Skills updated for employee 67
+INFO 2024-05-30 16:11:54,098 views 13440 12036 Project "New Project" added successfully
+ERROR 2024-05-30 16:11:54,114 views 13440 12036 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-30 16:11:54,114 log 13440 12036 Bad Request: /add_project/
+INFO 2024-05-30 16:11:54,270 views 13440 12036 Employee form submitted and saved successfully
+INFO 2024-05-30 16:11:54,426 views 13440 12036 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-30 16:11:54,567 views 13440 12036 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 16:11:54,567 log 13440 12036 Internal Server Error: /assign_project/
+INFO 2024-05-30 16:11:54,723 views 13440 12036 Employee 15 deleted successfully
+INFO 2024-05-30 16:11:54,879 views 13440 12036 Employee dashboard accessed
+INFO 2024-05-30 16:11:55,036 views 13440 12036 Filtered employee data retrieved
+INFO 2024-05-30 16:11:55,177 views 13440 12036 Employee data retrieved
+INFO 2024-05-30 16:11:55,317 views 13440 12036 Employee details retrieved for employee 27
+INFO 2024-05-30 16:11:55,458 views 13440 12036 Skills retrieved for employee 30
+INFO 2024-05-30 16:11:55,600 views 13440 12036 Project data retrieved
+INFO 2024-05-30 16:11:55,756 views 13440 12036 Request data retrieved
+INFO 2024-05-30 16:11:55,898 views 13440 12036 Home view accessed
+INFO 2024-05-30 16:11:56,351 views 13440 12036 Request 16 rejected successfully
+INFO 2024-05-30 16:11:56,806 views 13440 12036 Employee form submitted and saved successfully
+WARNING 2024-05-30 16:11:56,806 views 13440 12036 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 16:11:56,962 views 13440 12036 Employee project not found
+WARNING 2024-05-30 16:11:57,119 log 13440 12036 Method Not Allowed: /admin_dashboard/update_employee/64/
+INFO 2024-05-30 16:11:57,259 views 13440 12036 Skills updated for employee 67
+INFO 2024-05-30 16:13:27,906 views 8660 15304 Project "New Project" added successfully
+ERROR 2024-05-30 16:13:27,922 views 8660 15304 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-30 16:13:27,922 log 8660 15304 Bad Request: /add_project/
+INFO 2024-05-30 16:13:28,133 views 8660 15304 Employee form submitted and saved successfully
+INFO 2024-05-30 16:13:28,316 views 8660 15304 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-30 16:13:28,521 views 8660 15304 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 16:13:28,521 log 8660 15304 Internal Server Error: /assign_project/
+INFO 2024-05-30 16:13:28,709 views 8660 15304 Employee 15 deleted successfully
+INFO 2024-05-30 16:13:28,898 views 8660 15304 Employee dashboard accessed
+INFO 2024-05-30 16:13:29,039 views 8660 15304 Filtered employee data retrieved
+INFO 2024-05-30 16:13:29,179 views 8660 15304 Employee data retrieved
+INFO 2024-05-30 16:13:29,336 views 8660 15304 Employee details retrieved for employee 27
+INFO 2024-05-30 16:13:29,476 views 8660 15304 Skills retrieved for employee 30
+INFO 2024-05-30 16:13:29,633 views 8660 15304 Project data retrieved
+INFO 2024-05-30 16:13:29,773 views 8660 15304 Request data retrieved
+INFO 2024-05-30 16:13:29,914 views 8660 15304 Home view accessed
+INFO 2024-05-30 16:13:30,353 views 8660 15304 Request 16 rejected successfully
+INFO 2024-05-30 16:13:30,806 views 8660 15304 Employee form submitted and saved successfully
+WARNING 2024-05-30 16:13:30,806 views 8660 15304 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 16:13:30,962 views 8660 15304 Employee project not found
+WARNING 2024-05-30 16:13:31,102 log 8660 15304 Method Not Allowed: /admin_dashboard/update_employee/64/
+INFO 2024-05-30 16:13:31,243 views 8660 15304 Skills updated for employee 67
+INFO 2024-05-30 16:43:38,419 views 18320 20924 Project "New Project" added successfully
+ERROR 2024-05-30 16:43:38,512 views 18320 20924 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-30 16:43:38,512 log 18320 20924 Bad Request: /add_project/
+INFO 2024-05-30 16:43:38,669 views 18320 20924 Employee form submitted and saved successfully
+INFO 2024-05-30 16:43:38,810 views 18320 20924 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-30 16:43:38,951 views 18320 20924 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 16:43:38,951 log 18320 20924 Internal Server Error: /assign_project/
+INFO 2024-05-30 16:43:39,107 views 18320 20924 Employee 15 deleted successfully
+INFO 2024-05-30 16:43:39,249 views 18320 20924 Employee dashboard accessed
+INFO 2024-05-30 16:43:39,405 views 18320 20924 Filtered employee data retrieved
+INFO 2024-05-30 16:43:39,545 views 18320 20924 Employee data retrieved
+INFO 2024-05-30 16:43:39,703 views 18320 20924 Employee details retrieved for employee 27
+INFO 2024-05-30 16:43:39,844 views 18320 20924 Skills retrieved for employee 30
+INFO 2024-05-30 16:43:40,016 views 18320 20924 Project data retrieved
+INFO 2024-05-30 16:43:40,157 views 18320 20924 Request data retrieved
+INFO 2024-05-30 16:43:40,298 views 18320 20924 Home view accessed
+INFO 2024-05-30 16:43:40,768 views 18320 20924 Request 16 rejected successfully
+INFO 2024-05-30 16:43:41,208 views 18320 20924 Employee form submitted and saved successfully
+WARNING 2024-05-30 16:43:41,224 views 18320 20924 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 16:43:41,365 views 18320 20924 Employee project not found
+WARNING 2024-05-30 16:43:41,507 log 18320 20924 Method Not Allowed: /admin_dashboard/update_employee/64/
+INFO 2024-05-30 16:43:41,647 views 18320 20924 Skills updated for employee 67
+INFO 2024-05-30 16:45:22,413 views 3248 22232 Project "New Project" added successfully
+ERROR 2024-05-30 16:45:22,444 views 3248 22232 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-30 16:45:22,444 log 3248 22232 Bad Request: /add_project/
+INFO 2024-05-30 16:45:22,586 views 3248 22232 Employee form submitted and saved successfully
+INFO 2024-05-30 16:45:22,742 views 3248 22232 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-30 16:45:22,883 views 3248 22232 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 16:45:22,883 log 3248 22232 Internal Server Error: /assign_project/
+INFO 2024-05-30 16:45:23,039 views 3248 22232 Employee 15 deleted successfully
+INFO 2024-05-30 16:45:23,181 views 3248 22232 Employee dashboard accessed
+INFO 2024-05-30 16:45:23,368 views 3248 22232 Filtered employee data retrieved
+INFO 2024-05-30 16:45:23,604 views 3248 22232 Employee data retrieved
+INFO 2024-05-30 16:45:23,840 views 3248 22232 Employee details retrieved for employee 27
+INFO 2024-05-30 16:45:24,076 views 3248 22232 Skills retrieved for employee 30
+INFO 2024-05-30 16:45:24,281 views 3248 22232 Project data retrieved
+INFO 2024-05-30 16:45:24,454 views 3248 22232 Request data retrieved
+INFO 2024-05-30 16:45:24,612 views 3248 22232 Home view accessed
+INFO 2024-05-30 16:45:25,099 views 3248 22232 Request 16 rejected successfully
+INFO 2024-05-30 16:45:25,602 views 3248 22232 Employee form submitted and saved successfully
+WARNING 2024-05-30 16:45:25,618 views 3248 22232 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 16:45:25,775 views 3248 22232 Employee project not found
+WARNING 2024-05-30 16:45:25,932 log 3248 22232 Method Not Allowed: /admin_dashboard/update_employee/64/
+INFO 2024-05-30 16:45:26,089 views 3248 22232 Skills updated for employee 67
+INFO 2024-05-30 16:46:59,294 views 12848 13228 Project "New Project" added successfully
+ERROR 2024-05-30 16:46:59,310 views 12848 13228 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-30 16:46:59,310 log 12848 13228 Bad Request: /add_project/
+INFO 2024-05-30 16:46:59,484 views 12848 13228 Employee form submitted and saved successfully
+INFO 2024-05-30 16:46:59,674 views 12848 13228 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-30 16:46:59,878 views 12848 13228 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 16:46:59,878 log 12848 13228 Internal Server Error: /assign_project/
+INFO 2024-05-30 16:47:00,114 views 12848 13228 Employee 15 deleted successfully
+INFO 2024-05-30 16:47:00,337 views 12848 13228 Employee dashboard accessed
+INFO 2024-05-30 16:47:00,575 views 12848 13228 Filtered employee data retrieved
+INFO 2024-05-30 16:47:00,805 views 12848 13228 Employee data retrieved
+INFO 2024-05-30 16:47:01,025 views 12848 13228 Employee details retrieved for employee 27
+INFO 2024-05-30 16:47:01,246 views 12848 13228 Skills retrieved for employee 30
+INFO 2024-05-30 16:47:01,421 views 12848 13228 Project data retrieved
+INFO 2024-05-30 16:47:01,578 views 12848 13228 Request data retrieved
+INFO 2024-05-30 16:47:01,759 views 12848 13228 Home view accessed
+INFO 2024-05-30 16:47:02,262 views 12848 13228 Request 16 rejected successfully
+INFO 2024-05-30 16:47:02,750 views 12848 13228 Employee form submitted and saved successfully
+WARNING 2024-05-30 16:47:02,750 views 12848 13228 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 16:47:02,953 views 12848 13228 Employee project not found
+WARNING 2024-05-30 16:47:03,127 log 12848 13228 Method Not Allowed: /admin_dashboard/update_employee/64/
+INFO 2024-05-30 16:47:03,284 views 12848 13228 Skills updated for employee 67
+INFO 2024-05-30 16:47:46,693 views 14408 10268 Project "New Project" added successfully
+ERROR 2024-05-30 16:47:46,709 views 14408 10268 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-30 16:47:46,709 log 14408 10268 Bad Request: /add_project/
+INFO 2024-05-30 16:47:46,865 views 14408 10268 Employee form submitted and saved successfully
+INFO 2024-05-30 16:47:47,023 views 14408 10268 Request 3 approved and EmployeeProject records created
+ERROR 2024-05-30 16:47:47,163 views 14408 10268 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 16:47:47,163 log 14408 10268 Internal Server Error: /assign_project/
+INFO 2024-05-30 16:47:47,304 views 14408 10268 Employee 15 deleted successfully
+INFO 2024-05-30 16:47:47,445 views 14408 10268 Employee dashboard accessed
+INFO 2024-05-30 16:47:47,601 views 14408 10268 Filtered employee data retrieved
+INFO 2024-05-30 16:47:47,742 views 14408 10268 Employee data retrieved
+INFO 2024-05-30 16:47:47,884 views 14408 10268 Employee details retrieved for employee 27
+INFO 2024-05-30 16:47:48,024 views 14408 10268 Skills retrieved for employee 30
+INFO 2024-05-30 16:47:48,181 views 14408 10268 Project data retrieved
+INFO 2024-05-30 16:47:48,321 views 14408 10268 Request data retrieved
+INFO 2024-05-30 16:47:48,463 views 14408 10268 Home view accessed
+INFO 2024-05-30 16:47:48,900 views 14408 10268 Request 16 rejected successfully
+INFO 2024-05-30 16:47:49,370 views 14408 10268 Employee form submitted and saved successfully
+WARNING 2024-05-30 16:47:49,370 views 14408 10268 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 16:47:49,510 views 14408 10268 Employee project not found
+WARNING 2024-05-30 16:47:49,667 log 14408 10268 Method Not Allowed: /admin_dashboard/update_employee/64/
+INFO 2024-05-30 16:47:49,792 views 14408 10268 Skills updated for employee 67
+INFO 2024-05-30 16:49:30,040 views 14824 8492 Project "New Project" added successfully
+ERROR 2024-05-30 16:49:30,055 views 14824 8492 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-30 16:49:30,055 log 14824 8492 Bad Request: /add_project/
+INFO 2024-05-30 16:49:30,212 views 14824 8492 Employee form submitted and saved successfully
+INFO 2024-05-30 16:49:30,368 views 14824 8492 Request 3 approved and EmployeeProject records created
+INFO 2024-05-30 16:49:30,509 views 14824 8492 Project 5 assigned to employee 12 successfully
+INFO 2024-05-30 16:49:30,650 views 14824 8492 Employee 15 deleted successfully
+INFO 2024-05-30 16:49:30,807 views 14824 8492 Employee dashboard accessed
+INFO 2024-05-30 16:49:30,960 views 14824 8492 Filtered employee data retrieved
+INFO 2024-05-30 16:49:31,089 views 14824 8492 Employee data retrieved
+INFO 2024-05-30 16:49:31,245 views 14824 8492 Employee details retrieved for employee 27
+INFO 2024-05-30 16:49:31,386 views 14824 8492 Skills retrieved for employee 30
+INFO 2024-05-30 16:49:31,527 views 14824 8492 Project data retrieved
+INFO 2024-05-30 16:49:31,683 views 14824 8492 Request data retrieved
+INFO 2024-05-30 16:49:31,855 views 14824 8492 Home view accessed
+INFO 2024-05-30 16:49:32,309 views 14824 8492 Request 16 rejected successfully
+INFO 2024-05-30 16:49:32,747 views 14824 8492 Employee form submitted and saved successfully
+WARNING 2024-05-30 16:49:32,763 views 14824 8492 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 16:49:32,903 views 14824 8492 Employee project not found
+WARNING 2024-05-30 16:49:33,044 log 14824 8492 Method Not Allowed: /admin_dashboard/update_employee/64/
+INFO 2024-05-30 16:49:33,236 views 14824 8492 Skills updated for employee 67
+INFO 2024-05-30 16:54:10,971 views 12604 21156 Project "New Project" added successfully
+ERROR 2024-05-30 16:54:11,000 views 12604 21156 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-30 16:54:11,000 log 12604 21156 Bad Request: /add_project/
+INFO 2024-05-30 16:54:11,150 views 12604 21156 Employee form submitted and saved successfully
+INFO 2024-05-30 16:54:11,305 views 12604 21156 Request 5 approved and EmployeeProject records created
+INFO 2024-05-30 16:54:11,458 views 12604 21156 Project 12 assigned to employee 19 successfully
+INFO 2024-05-30 16:54:11,613 views 12604 21156 Employee 22 deleted successfully
+INFO 2024-05-30 16:54:11,755 views 12604 21156 Employee dashboard accessed
+INFO 2024-05-30 16:54:11,901 views 12604 21156 Filtered employee data retrieved
+INFO 2024-05-30 16:54:12,043 views 12604 21156 Employee data retrieved
+INFO 2024-05-30 16:54:12,188 views 12604 21156 Employee details retrieved for employee 34
+INFO 2024-05-30 16:54:12,338 views 12604 21156 Skills retrieved for employee 37
+INFO 2024-05-30 16:54:12,485 views 12604 21156 Project data retrieved
+INFO 2024-05-30 16:54:12,624 views 12604 21156 Request data retrieved
+INFO 2024-05-30 16:54:12,777 views 12604 21156 Home view accessed
+INFO 2024-05-30 16:54:13,229 views 12604 21156 Request 18 rejected successfully
+INFO 2024-05-30 16:54:13,669 views 12604 21156 Employee form submitted and saved successfully
+WARNING 2024-05-30 16:54:13,676 views 12604 21156 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 16:54:13,824 views 12604 21156 Employee project not found
+WARNING 2024-05-30 16:54:13,977 log 12604 21156 Method Not Allowed: /admin_dashboard/update_employee/71/
+INFO 2024-05-30 16:54:14,123 views 12604 21156 Skills updated for employee 74
+ERROR 2024-05-30 17:22:42,649 views 16836 7060 Error adding project: (1048, "Column 'start_date' cannot be null")
+WARNING 2024-05-30 17:22:42,649 log 16836 7060 Bad Request: /add_project/
+ERROR 2024-05-30 17:22:43,102 views 16836 7060 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 17:22:43,102 log 16836 7060 Internal Server Error: /assign_project/
+INFO 2024-05-30 17:22:43,243 views 16836 7060 Employee 5 deleted successfully
+INFO 2024-05-30 17:22:43,384 views 16836 7060 Employee dashboard accessed
+INFO 2024-05-30 17:22:43,462 views 16836 7060 Filtered employee data retrieved
+INFO 2024-05-30 17:22:43,524 views 16836 7060 Employee data retrieved
+INFO 2024-05-30 17:22:43,603 views 16836 7060 Employee details retrieved for employee 9
+INFO 2024-05-30 17:22:43,681 views 16836 7060 Skills retrieved for employee 10
+INFO 2024-05-30 17:22:43,743 views 16836 7060 Project data retrieved
+INFO 2024-05-30 17:22:43,821 views 16836 7060 Project info retrieved for employee 12
+INFO 2024-05-30 17:22:43,962 views 16836 7060 Request data retrieved
+INFO 2024-05-30 17:22:44,024 views 16836 7060 Home view accessed
+WARNING 2024-05-30 17:22:44,681 views 16836 7060 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 17:22:44,822 views 16836 7060 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 17:22:44,822 log 16836 7060 Internal Server Error: /unassign_project/
+WARNING 2024-05-30 17:22:44,962 log 16836 7060 Method Not Allowed: /admin_dashboard/update_employee/22/
+ERROR 2024-05-30 17:22:45,119 log 16836 7060 Internal Server Error: /admin_dashboard/update_skills/23/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\prj_emp\prj_emp\views.py", line 307, in update_skills
+    data = json.loads(request.body)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 17:24:20,902 views 13440 15284 Error adding project: (1048, "Column 'start_date' cannot be null")
+WARNING 2024-05-30 17:24:20,902 log 13440 15284 Bad Request: /add_project/
+ERROR 2024-05-30 17:24:21,342 views 13440 15284 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 17:24:21,342 log 13440 15284 Internal Server Error: /assign_project/
+INFO 2024-05-30 17:24:21,498 views 13440 15284 Employee 5 deleted successfully
+INFO 2024-05-30 17:24:21,638 views 13440 15284 Employee dashboard accessed
+INFO 2024-05-30 17:24:21,717 views 13440 15284 Filtered employee data retrieved
+INFO 2024-05-30 17:24:21,795 views 13440 15284 Employee data retrieved
+INFO 2024-05-30 17:24:21,873 views 13440 15284 Employee details retrieved for employee 9
+INFO 2024-05-30 17:24:21,936 views 13440 15284 Skills retrieved for employee 10
+INFO 2024-05-30 17:24:22,014 views 13440 15284 Project data retrieved
+INFO 2024-05-30 17:24:22,076 views 13440 15284 Project info retrieved for employee 12
+INFO 2024-05-30 17:24:22,217 views 13440 15284 Request data retrieved
+INFO 2024-05-30 17:24:22,295 views 13440 15284 Home view accessed
+WARNING 2024-05-30 17:24:22,953 views 13440 15284 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 17:24:23,094 views 13440 15284 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 17:24:23,094 log 13440 15284 Internal Server Error: /unassign_project/
+WARNING 2024-05-30 17:24:23,234 log 13440 15284 Method Not Allowed: /admin_dashboard/update_employee/22/
+ERROR 2024-05-30 17:24:23,376 log 13440 15284 Internal Server Error: /admin_dashboard/update_skills/23/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\prj_emp\prj_emp\views.py", line 307, in update_skills
+    data = json.loads(request.body)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 18:31:51,547 views 4024 14472 Error adding project: (1048, "Column 'start_date' cannot be null")
+WARNING 2024-05-30 18:31:51,547 log 4024 14472 Bad Request: /add_project/
+INFO 2024-05-30 18:31:51,880 views 4024 14472 Request 1 approved and EmployeeProject records created
+ERROR 2024-05-30 18:31:52,033 views 4024 14472 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 18:31:52,033 log 4024 14472 Internal Server Error: /assign_project/
+INFO 2024-05-30 18:31:52,179 views 4024 14472 Employee 5 deleted successfully
+INFO 2024-05-30 18:31:52,337 views 4024 14472 Employee dashboard accessed
+INFO 2024-05-30 18:31:52,478 views 4024 14472 Filtered employee data retrieved
+INFO 2024-05-30 18:31:52,634 views 4024 14472 Employee data retrieved
+INFO 2024-05-30 18:31:52,822 views 4024 14472 Employee details retrieved for employee 9
+INFO 2024-05-30 18:31:53,011 views 4024 14472 Skills retrieved for employee 10
+INFO 2024-05-30 18:31:53,168 views 4024 14472 Project data retrieved
+INFO 2024-05-30 18:31:53,311 views 4024 14472 Project info retrieved for employee 12
+INFO 2024-05-30 18:31:53,467 views 4024 14472 Request data retrieved
+INFO 2024-05-30 18:31:53,613 views 4024 14472 Home view accessed
+INFO 2024-05-30 18:31:54,237 views 4024 14472 Request 2 rejected successfully
+WARNING 2024-05-30 18:31:54,568 views 4024 14472 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 18:31:54,717 views 4024 14472 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 18:31:54,717 log 4024 14472 Internal Server Error: /unassign_project/
+WARNING 2024-05-30 18:31:54,867 log 4024 14472 Method Not Allowed: /admin_dashboard/update_employee/22/
+ERROR 2024-05-30 18:31:55,034 log 4024 14472 Internal Server Error: /admin_dashboard/update_skills/23/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\prj_emp\prj_emp\views.py", line 307, in update_skills
+    data = json.loads(request.body)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 19:00:48,474 views 23420 16376 Error adding project: (1048, "Column 'start_date' cannot be null")
+WARNING 2024-05-30 19:00:48,474 log 23420 16376 Bad Request: /add_project/
+INFO 2024-05-30 19:00:48,773 views 23420 16376 Request 1 approved and EmployeeProject records created
+ERROR 2024-05-30 19:00:48,914 views 23420 16376 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 19:00:48,914 log 23420 16376 Internal Server Error: /assign_project/
+INFO 2024-05-30 19:00:49,071 views 23420 16376 Employee 5 deleted successfully
+INFO 2024-05-30 19:00:49,212 views 23420 16376 Employee dashboard accessed
+INFO 2024-05-30 19:00:49,354 views 23420 16376 Filtered employee data retrieved
+INFO 2024-05-30 19:00:49,511 views 23420 16376 Employee data retrieved
+INFO 2024-05-30 19:00:49,652 views 23420 16376 Employee details retrieved for employee 9
+INFO 2024-05-30 19:00:49,793 views 23420 16376 Skills retrieved for employee 10
+INFO 2024-05-30 19:00:49,949 views 23420 16376 Project data retrieved
+INFO 2024-05-30 19:00:50,090 views 23420 16376 Project info retrieved for employee 12
+INFO 2024-05-30 19:00:50,232 views 23420 16376 Request data retrieved
+INFO 2024-05-30 19:00:50,373 views 23420 16376 Home view accessed
+INFO 2024-05-30 19:00:50,970 views 23420 16376 Request 2 rejected successfully
+WARNING 2024-05-30 19:00:51,252 views 23420 16376 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 19:00:51,394 views 23420 16376 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 19:00:51,394 log 23420 16376 Internal Server Error: /unassign_project/
+WARNING 2024-05-30 19:00:51,551 log 23420 16376 Method Not Allowed: /admin_dashboard/update_employee/22/
+ERROR 2024-05-30 19:00:51,692 log 23420 16376 Internal Server Error: /admin_dashboard/update_skills/23/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\prj_emp\prj_emp\views.py", line 307, in update_skills
+    data = json.loads(request.body)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 19:02:28,526 views 5132 6948 Error adding project: (1048, "Column 'start_date' cannot be null")
+WARNING 2024-05-30 19:02:28,526 log 5132 6948 Bad Request: /add_project/
+INFO 2024-05-30 19:02:28,856 views 5132 6948 Request 1 approved and EmployeeProject records created
+ERROR 2024-05-30 19:02:29,014 views 5132 6948 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 19:02:29,014 log 5132 6948 Internal Server Error: /assign_project/
+INFO 2024-05-30 19:02:29,173 views 5132 6948 Employee 5 deleted successfully
+INFO 2024-05-30 19:02:29,312 views 5132 6948 Employee dashboard accessed
+INFO 2024-05-30 19:02:29,469 views 5132 6948 Filtered employee data retrieved
+INFO 2024-05-30 19:02:29,611 views 5132 6948 Employee data retrieved
+INFO 2024-05-30 19:02:29,767 views 5132 6948 Employee details retrieved for employee 9
+INFO 2024-05-30 19:02:29,909 views 5132 6948 Skills retrieved for employee 10
+INFO 2024-05-30 19:02:30,065 views 5132 6948 Project data retrieved
+INFO 2024-05-30 19:02:30,222 views 5132 6948 Project info retrieved for employee 12
+INFO 2024-05-30 19:02:30,364 views 5132 6948 Request data retrieved
+INFO 2024-05-30 19:02:30,521 views 5132 6948 Home view accessed
+INFO 2024-05-30 19:02:31,116 views 5132 6948 Request 2 rejected successfully
+WARNING 2024-05-30 19:02:31,413 views 5132 6948 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 19:02:31,571 views 5132 6948 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 19:02:31,571 log 5132 6948 Internal Server Error: /unassign_project/
+ERROR 2024-05-30 19:02:31,884 log 5132 6948 Internal Server Error: /admin_dashboard/update_skills/23/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\prj_emp\prj_emp\views.py", line 307, in update_skills
+    data = json.loads(request.body)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 19:05:30,364 views 4668 16688 Error adding project: (1048, "Column 'start_date' cannot be null")
+WARNING 2024-05-30 19:05:30,364 log 4668 16688 Bad Request: /add_project/
+INFO 2024-05-30 19:05:30,695 views 4668 16688 Request 1 approved and EmployeeProject records created
+ERROR 2024-05-30 19:05:30,884 views 4668 16688 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 19:05:30,884 log 4668 16688 Internal Server Error: /assign_project/
+INFO 2024-05-30 19:05:31,041 views 4668 16688 Employee 5 deleted successfully
+INFO 2024-05-30 19:05:31,248 views 4668 16688 Employee dashboard accessed
+INFO 2024-05-30 19:05:31,437 views 4668 16688 Filtered employee data retrieved
+INFO 2024-05-30 19:05:31,642 views 4668 16688 Employee data retrieved
+INFO 2024-05-30 19:05:31,799 views 4668 16688 Employee details retrieved for employee 9
+INFO 2024-05-30 19:05:31,940 views 4668 16688 Skills retrieved for employee 10
+INFO 2024-05-30 19:05:32,081 views 4668 16688 Project data retrieved
+INFO 2024-05-30 19:05:32,270 views 4668 16688 Project info retrieved for employee 12
+INFO 2024-05-30 19:05:32,444 views 4668 16688 Request data retrieved
+INFO 2024-05-30 19:05:32,585 views 4668 16688 Home view accessed
+INFO 2024-05-30 19:05:33,167 views 4668 16688 Request 2 rejected successfully
+WARNING 2024-05-30 19:05:33,466 views 4668 16688 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 19:05:33,607 views 4668 16688 Error unassigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 19:05:33,607 log 4668 16688 Internal Server Error: /unassign_project/
+ERROR 2024-05-30 19:05:33,889 log 4668 16688 Internal Server Error: /admin_dashboard/update_skills/23/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\prj_emp\prj_emp\views.py", line 307, in update_skills
+    data = json.loads(request.body)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 19:06:14,471 views 21972 4356 Error adding project: (1048, "Column 'start_date' cannot be null")
+WARNING 2024-05-30 19:06:14,471 log 21972 4356 Bad Request: /add_project/
+INFO 2024-05-30 19:06:14,768 views 21972 4356 Request 1 approved and EmployeeProject records created
+ERROR 2024-05-30 19:06:14,924 views 21972 4356 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 19:06:14,924 log 21972 4356 Internal Server Error: /assign_project/
+INFO 2024-05-30 19:06:15,065 views 21972 4356 Employee 5 deleted successfully
+INFO 2024-05-30 19:06:15,206 views 21972 4356 Employee dashboard accessed
+INFO 2024-05-30 19:06:15,362 views 21972 4356 Filtered employee data retrieved
+INFO 2024-05-30 19:06:15,504 views 21972 4356 Employee data retrieved
+INFO 2024-05-30 19:06:15,644 views 21972 4356 Employee details retrieved for employee 9
+INFO 2024-05-30 19:06:15,801 views 21972 4356 Skills retrieved for employee 10
+INFO 2024-05-30 19:06:15,942 views 21972 4356 Project data retrieved
+INFO 2024-05-30 19:06:16,083 views 21972 4356 Project info retrieved for employee 12
+INFO 2024-05-30 19:06:16,223 views 21972 4356 Request data retrieved
+INFO 2024-05-30 19:06:16,381 views 21972 4356 Home view accessed
+INFO 2024-05-30 19:06:16,961 views 21972 4356 Request 2 rejected successfully
+WARNING 2024-05-30 19:06:17,259 views 21972 4356 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-30 19:06:17,682 log 21972 4356 Internal Server Error: /admin_dashboard/update_skills/23/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\prj_emp\prj_emp\views.py", line 307, in update_skills
+    data = json.loads(request.body)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 19:07:28,845 views 17532 19896 Error adding project: (1048, "Column 'start_date' cannot be null")
+WARNING 2024-05-30 19:07:28,845 log 17532 19896 Bad Request: /add_project/
+INFO 2024-05-30 19:07:29,181 views 17532 19896 Request 1 approved and EmployeeProject records created
+ERROR 2024-05-30 19:07:29,322 views 17532 19896 Error assigning project: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 19:07:29,322 log 17532 19896 Internal Server Error: /assign_project/
+INFO 2024-05-30 19:07:29,479 views 17532 19896 Employee 5 deleted successfully
+INFO 2024-05-30 19:07:29,636 views 17532 19896 Employee dashboard accessed
+INFO 2024-05-30 19:07:29,777 views 17532 19896 Filtered employee data retrieved
+INFO 2024-05-30 19:07:29,918 views 17532 19896 Employee data retrieved
+INFO 2024-05-30 19:07:30,076 views 17532 19896 Employee details retrieved for employee 9
+INFO 2024-05-30 19:07:30,217 views 17532 19896 Skills retrieved for employee 10
+INFO 2024-05-30 19:07:30,358 views 17532 19896 Project data retrieved
+INFO 2024-05-30 19:07:30,499 views 17532 19896 Project info retrieved for employee 12
+INFO 2024-05-30 19:07:30,655 views 17532 19896 Request data retrieved
+INFO 2024-05-30 19:07:30,796 views 17532 19896 Home view accessed
+INFO 2024-05-30 19:07:31,376 views 17532 19896 Request 2 rejected successfully
+WARNING 2024-05-30 19:07:31,689 views 17532 19896 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-30 19:07:31,830 views 17532 19896 Project unassigned from employee 21 successfully
+INFO 2024-05-30 19:07:31,986 views 17532 19896 Employee 22 details updated successfully
+ERROR 2024-05-30 19:07:32,127 log 17532 19896 Internal Server Error: /admin_dashboard/update_skills/23/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\prj_emp\prj_emp\views.py", line 307, in update_skills
+    data = json.loads(request.body)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-05-30 19:08:46,403 views 13628 17640 Error adding project: (1048, "Column 'start_date' cannot be null")
+WARNING 2024-05-30 19:08:46,403 log 13628 17640 Bad Request: /add_project/
+INFO 2024-05-30 19:08:46,701 views 13628 17640 Request 1 approved and EmployeeProject records created
+INFO 2024-05-30 19:08:46,859 views 13628 17640 Project 4 already assigned to employee 4
+INFO 2024-05-30 19:08:47,000 views 13628 17640 Employee 5 deleted successfully
+INFO 2024-05-30 19:08:47,141 views 13628 17640 Employee dashboard accessed
+INFO 2024-05-30 19:08:47,298 views 13628 17640 Filtered employee data retrieved
+INFO 2024-05-30 19:08:47,439 views 13628 17640 Employee data retrieved
+INFO 2024-05-30 19:08:47,597 views 13628 17640 Employee details retrieved for employee 9
+INFO 2024-05-30 19:08:47,738 views 13628 17640 Skills retrieved for employee 10
+INFO 2024-05-30 19:08:47,879 views 13628 17640 Project data retrieved
+INFO 2024-05-30 19:08:48,037 views 13628 17640 Project info retrieved for employee 12
+INFO 2024-05-30 19:08:48,178 views 13628 17640 Request data retrieved
+INFO 2024-05-30 19:08:48,320 views 13628 17640 Home view accessed
+INFO 2024-05-30 19:08:48,901 views 13628 17640 Request 2 rejected successfully
+WARNING 2024-05-30 19:08:49,199 views 13628 17640 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-30 19:08:49,350 views 13628 17640 Project unassigned from employee 21 successfully
+INFO 2024-05-30 19:08:49,497 views 13628 17640 Employee 22 details updated successfully
+ERROR 2024-05-30 19:08:49,639 log 13628 17640 Internal Server Error: /admin_dashboard/update_skills/23/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\prj_emp\prj_emp\views.py", line 307, in update_skills
+    data = json.loads(request.body)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO 2024-05-30 19:10:30,830 views 13340 12700 Project "New Project" added successfully
+INFO 2024-05-30 19:10:31,159 views 13340 12700 Request 1 approved and EmployeeProject records created
+INFO 2024-05-30 19:10:31,316 views 13340 12700 Project 5 already assigned to employee 4
+INFO 2024-05-30 19:10:31,472 views 13340 12700 Employee 5 deleted successfully
+INFO 2024-05-30 19:10:31,613 views 13340 12700 Employee dashboard accessed
+INFO 2024-05-30 19:10:31,769 views 13340 12700 Filtered employee data retrieved
+INFO 2024-05-30 19:10:31,910 views 13340 12700 Employee data retrieved
+INFO 2024-05-30 19:10:32,066 views 13340 12700 Employee details retrieved for employee 9
+INFO 2024-05-30 19:10:32,207 views 13340 12700 Skills retrieved for employee 10
+INFO 2024-05-30 19:10:32,348 views 13340 12700 Project data retrieved
+INFO 2024-05-30 19:10:32,504 views 13340 12700 Project info retrieved for employee 12
+INFO 2024-05-30 19:10:32,661 views 13340 12700 Request data retrieved
+INFO 2024-05-30 19:10:32,802 views 13340 12700 Home view accessed
+INFO 2024-05-30 19:10:33,444 views 13340 12700 Request 2 rejected successfully
+WARNING 2024-05-30 19:10:33,757 views 13340 12700 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-30 19:10:33,898 views 13340 12700 Project unassigned from employee 21 successfully
+INFO 2024-05-30 19:10:34,054 views 13340 12700 Employee 22 details updated successfully
+ERROR 2024-05-30 19:10:34,196 log 13340 12700 Internal Server Error: /admin_dashboard/update_skills/23/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\prj_emp\prj_emp\views.py", line 307, in update_skills
+    data = json.loads(request.body)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO 2024-05-30 19:13:09,736 views 20660 8004 Project "New Project" added successfully
+INFO 2024-05-30 19:13:10,064 views 20660 8004 Request 1 approved and EmployeeProject records created
+INFO 2024-05-30 19:13:10,205 views 20660 8004 Project 5 already assigned to employee 4
+INFO 2024-05-30 19:13:10,346 views 20660 8004 Employee 5 deleted successfully
+INFO 2024-05-30 19:13:10,488 views 20660 8004 Employee dashboard accessed
+INFO 2024-05-30 19:13:10,629 views 20660 8004 Filtered employee data retrieved
+INFO 2024-05-30 19:13:10,787 views 20660 8004 Employee data retrieved
+INFO 2024-05-30 19:13:10,928 views 20660 8004 Employee details retrieved for employee 9
+INFO 2024-05-30 19:13:11,069 views 20660 8004 Skills retrieved for employee 10
+INFO 2024-05-30 19:13:11,210 views 20660 8004 Project data retrieved
+INFO 2024-05-30 19:13:11,352 views 20660 8004 Project info retrieved for employee 12
+INFO 2024-05-30 19:13:11,492 views 20660 8004 Request data retrieved
+INFO 2024-05-30 19:13:11,633 views 20660 8004 Home view accessed
+INFO 2024-05-30 19:13:12,227 views 20660 8004 Request 2 rejected successfully
+WARNING 2024-05-30 19:13:12,541 views 20660 8004 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-30 19:13:12,698 views 20660 8004 Project unassigned from employee 21 successfully
+INFO 2024-05-30 19:13:12,855 views 20660 8004 Employee 22 details updated successfully
+INFO 2024-05-30 19:13:12,995 views 20660 8004 Skills updated for employee 23
+INFO 2024-05-30 19:15:38,262 views 20440 5380 Project "New Project" added successfully
+INFO 2024-05-30 19:15:38,615 views 20440 5380 Request 1 approved and EmployeeProject records created
+INFO 2024-05-30 19:15:38,772 views 20440 5380 Project 5 already assigned to employee 4
+INFO 2024-05-30 19:15:38,929 views 20440 5380 Employee 5 deleted successfully
+INFO 2024-05-30 19:15:39,069 views 20440 5380 Employee dashboard accessed
+INFO 2024-05-30 19:15:39,210 views 20440 5380 Filtered employee data retrieved
+INFO 2024-05-30 19:15:39,382 views 20440 5380 Employee data retrieved
+INFO 2024-05-30 19:15:39,523 views 20440 5380 Employee details retrieved for employee 9
+INFO 2024-05-30 19:15:39,679 views 20440 5380 Skills retrieved for employee 10
+INFO 2024-05-30 19:15:39,836 views 20440 5380 Project data retrieved
+INFO 2024-05-30 19:15:39,976 views 20440 5380 Project info retrieved for employee 12
+INFO 2024-05-30 19:15:40,133 views 20440 5380 Request data retrieved
+INFO 2024-05-30 19:15:40,289 views 20440 5380 Home view accessed
+INFO 2024-05-30 19:15:40,899 views 20440 5380 Request 2 rejected successfully
+WARNING 2024-05-30 19:15:41,180 views 20440 5380 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-30 19:15:41,322 views 20440 5380 Project unassigned from employee 21 successfully
+INFO 2024-05-30 19:15:41,494 views 20440 5380 Employee 22 details updated successfully
+INFO 2024-05-30 19:15:41,651 views 20440 5380 Skills updated for employee 23
+INFO 2024-05-30 19:18:55,979 views 15504 8412 Project "New Project" added successfully
+INFO 2024-05-30 19:18:56,292 views 15504 8412 Request 1 approved and EmployeeProject records created
+INFO 2024-05-30 19:18:56,449 views 15504 8412 Project 5 already assigned to employee 4
+INFO 2024-05-30 19:18:56,591 views 15504 8412 Employee 5 deleted successfully
+INFO 2024-05-30 19:18:56,750 views 15504 8412 Employee dashboard accessed
+INFO 2024-05-30 19:18:56,892 views 15504 8412 Filtered employee data retrieved
+INFO 2024-05-30 19:18:57,049 views 15504 8412 Employee data retrieved
+INFO 2024-05-30 19:18:57,190 views 15504 8412 Employee details retrieved for employee 9
+INFO 2024-05-30 19:18:57,332 views 15504 8412 Skills retrieved for employee 10
+INFO 2024-05-30 19:18:57,473 views 15504 8412 Project data retrieved
+INFO 2024-05-30 19:18:57,630 views 15504 8412 Project info retrieved for employee 12
+INFO 2024-05-30 19:18:57,802 views 15504 8412 Request data retrieved
+INFO 2024-05-30 19:18:57,944 views 15504 8412 Home view accessed
+INFO 2024-05-30 19:18:58,608 views 15504 8412 Request 2 rejected successfully
+WARNING 2024-05-30 19:18:58,907 views 15504 8412 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-30 19:18:59,068 views 15504 8412 Project unassigned from employee 21 successfully
+INFO 2024-05-30 19:18:59,206 views 15504 8412 Employee 22 details updated successfully
+INFO 2024-05-30 19:18:59,363 views 15504 8412 Skills updated for employee 23
+INFO 2024-05-30 19:19:36,411 views 14460 9540 Project "New Project" added successfully
+INFO 2024-05-30 19:19:36,740 views 14460 9540 Request 1 approved and EmployeeProject records created
+INFO 2024-05-30 19:19:36,897 views 14460 9540 Project 5 already assigned to employee 4
+INFO 2024-05-30 19:19:37,070 views 14460 9540 Employee 5 deleted successfully
+INFO 2024-05-30 19:19:37,210 views 14460 9540 Employee dashboard accessed
+INFO 2024-05-30 19:19:37,367 views 14460 9540 Filtered employee data retrieved
+INFO 2024-05-30 19:19:37,492 views 14460 9540 Employee data retrieved
+INFO 2024-05-30 19:19:37,664 views 14460 9540 Employee details retrieved for employee 9
+INFO 2024-05-30 19:19:37,806 views 14460 9540 Skills retrieved for employee 10
+INFO 2024-05-30 19:19:37,946 views 14460 9540 Project data retrieved
+INFO 2024-05-30 19:19:38,103 views 14460 9540 Project info retrieved for employee 12
+INFO 2024-05-30 19:19:38,243 views 14460 9540 Request data retrieved
+INFO 2024-05-30 19:19:38,400 views 14460 9540 Home view accessed
+INFO 2024-05-30 19:19:38,995 views 14460 9540 Request 2 rejected successfully
+WARNING 2024-05-30 19:19:39,293 views 14460 9540 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-30 19:19:39,434 views 14460 9540 Project unassigned from employee 21 successfully
+INFO 2024-05-30 19:19:39,590 views 14460 9540 Employee 22 details updated successfully
+INFO 2024-05-30 19:19:39,731 views 14460 9540 Skills updated for employee 23
+INFO 2024-05-30 19:55:06,337 autoreload 17352 10280 Watching for file changes with StatReloader
+INFO 2024-05-30 20:00:31,584 autoreload 22176 19112 Watching for file changes with StatReloader
+INFO 2024-05-30 20:00:33,064 views 22176 23108 Home view accessed
+INFO 2024-05-30 20:00:33,081 basehttp 22176 23108 "GET / HTTP/1.1" 200 2647
+WARNING 2024-05-30 20:00:33,418 log 22176 23108 Not Found: /favicon.ico
+WARNING 2024-05-30 20:00:33,419 basehttp 22176 23108 "GET /favicon.ico HTTP/1.1" 404 5510
+INFO 2024-05-31 17:05:53,317 views 20608 16896 Project "New Project" added successfully
+INFO 2024-05-31 17:05:53,669 views 20608 16896 Request 3 approved and EmployeeProject records created
+INFO 2024-05-31 17:05:53,819 views 20608 16896 Project 12 already assigned to employee 11
+INFO 2024-05-31 17:05:53,969 views 20608 16896 Employee 12 deleted successfully
+INFO 2024-05-31 17:05:54,118 views 20608 16896 Employee dashboard accessed
+INFO 2024-05-31 17:05:54,268 views 20608 16896 Filtered employee data retrieved
+INFO 2024-05-31 17:05:54,420 views 20608 16896 Employee data retrieved
+INFO 2024-05-31 17:05:54,554 views 20608 16896 Employee details retrieved for employee 16
+INFO 2024-05-31 17:05:54,703 views 20608 16896 Skills retrieved for employee 17
+INFO 2024-05-31 17:05:54,851 views 20608 16896 Project data retrieved
+INFO 2024-05-31 17:05:54,984 views 20608 16896 Project info retrieved for employee 19
+INFO 2024-05-31 17:05:55,135 views 20608 16896 Request data retrieved
+INFO 2024-05-31 17:05:55,285 views 20608 16896 Home view accessed
+INFO 2024-05-31 17:05:55,902 views 20608 16896 Request 4 rejected successfully
+WARNING 2024-05-31 17:05:56,201 views 20608 16896 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-31 17:05:56,350 views 20608 16896 Project unassigned from employee 28 successfully
+INFO 2024-05-31 17:05:56,484 views 20608 16896 Employee 29 details updated successfully
+INFO 2024-05-31 17:05:56,634 views 20608 16896 Skills updated for employee 30
+INFO 2024-05-31 17:05:56,785 views 20608 16896 Project "New Project" added successfully
+ERROR 2024-05-31 17:05:56,801 views 20608 16896 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-31 17:05:56,801 log 20608 16896 Bad Request: /add_project/
+INFO 2024-05-31 17:05:56,935 views 20608 16896 Employee form submitted and saved successfully
+INFO 2024-05-31 17:05:57,099 views 20608 16896 Request 7 approved and EmployeeProject records created
+INFO 2024-05-31 17:05:57,250 views 20608 16896 Project 36 assigned to employee 42 successfully
+INFO 2024-05-31 17:05:57,384 views 20608 16896 Employee 45 deleted successfully
+INFO 2024-05-31 17:05:57,535 views 20608 16896 Employee dashboard accessed
+INFO 2024-05-31 17:05:57,684 views 20608 16896 Filtered employee data retrieved
+INFO 2024-05-31 17:05:57,833 views 20608 16896 Employee data retrieved
+INFO 2024-05-31 17:05:57,967 views 20608 16896 Employee details retrieved for employee 57
+INFO 2024-05-31 17:05:58,123 views 20608 16896 Skills retrieved for employee 60
+INFO 2024-05-31 17:05:58,252 views 20608 16896 Project data retrieved
+INFO 2024-05-31 17:05:58,401 views 20608 16896 Request data retrieved
+INFO 2024-05-31 17:05:58,550 views 20608 16896 Home view accessed
+INFO 2024-05-31 17:05:59,000 views 20608 16896 Request 20 rejected successfully
+INFO 2024-05-31 17:05:59,418 views 20608 16896 Employee form submitted and saved successfully
+WARNING 2024-05-31 17:05:59,433 views 20608 16896 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-31 17:05:59,582 views 20608 16896 Employee project not found
+WARNING 2024-05-31 17:05:59,718 log 20608 16896 Method Not Allowed: /admin_dashboard/update_employee/94/
+INFO 2024-05-31 17:05:59,867 views 20608 16896 Skills updated for employee 97
+INFO 2024-05-31 17:15:32,988 views 19632 17604 Project "New Project" added successfully
+INFO 2024-05-31 17:15:33,289 views 19632 17604 Request 3 approved and EmployeeProject records created
+INFO 2024-05-31 17:15:33,440 views 19632 17604 Project 12 already assigned to employee 11
+INFO 2024-05-31 17:15:33,572 views 19632 17604 Employee 12 deleted successfully
+INFO 2024-05-31 17:15:33,736 views 19632 17604 Employee dashboard accessed
+INFO 2024-05-31 17:15:33,922 views 19632 17604 Filtered employee data retrieved
+INFO 2024-05-31 17:15:34,104 views 19632 17604 Employee data retrieved
+INFO 2024-05-31 17:15:34,261 views 19632 17604 Employee details retrieved for employee 16
+INFO 2024-05-31 17:15:34,411 views 19632 17604 Skills retrieved for employee 17
+INFO 2024-05-31 17:15:34,562 views 19632 17604 Project data retrieved
+INFO 2024-05-31 17:15:34,705 views 19632 17604 Project info retrieved for employee 19
+INFO 2024-05-31 17:15:34,870 views 19632 17604 Request data retrieved
+INFO 2024-05-31 17:15:35,020 views 19632 17604 Home view accessed
+INFO 2024-05-31 17:15:35,637 views 19632 17604 Request 4 rejected successfully
+WARNING 2024-05-31 17:15:35,990 views 19632 17604 Employee form submission failed: <ul class="errorlist"><li>email<ul class="errorlist"><li>This field is required.</li></ul></li><li>phone<ul class="errorlist"><li>This field is required.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+INFO 2024-05-31 17:15:36,140 views 19632 17604 Project unassigned from employee 28 successfully
+INFO 2024-05-31 17:15:36,309 views 19632 17604 Employee 29 details updated successfully
+INFO 2024-05-31 17:15:36,478 views 19632 17604 Skills updated for employee 30
+INFO 2024-05-31 17:15:36,639 views 19632 17604 Project "New Project" added successfully
+ERROR 2024-05-31 17:15:36,650 views 19632 17604 Error adding project: (1048, "Column 'name' cannot be null")
+WARNING 2024-05-31 17:15:36,651 log 19632 17604 Bad Request: /add_project/
+INFO 2024-05-31 17:15:36,836 views 19632 17604 Employee form submitted and saved successfully
+INFO 2024-05-31 17:15:37,038 views 19632 17604 Request 7 approved and EmployeeProject records created
+INFO 2024-05-31 17:15:37,206 views 19632 17604 Project 36 assigned to employee 42 successfully
+INFO 2024-05-31 17:15:37,353 views 19632 17604 Employee 45 deleted successfully
+INFO 2024-05-31 17:15:37,519 views 19632 17604 Employee dashboard accessed
+INFO 2024-05-31 17:15:37,680 views 19632 17604 Filtered employee data retrieved
+INFO 2024-05-31 17:15:37,842 views 19632 17604 Employee data retrieved
+INFO 2024-05-31 17:15:38,012 views 19632 17604 Employee details retrieved for employee 57
+INFO 2024-05-31 17:15:38,199 views 19632 17604 Skills retrieved for employee 60
+INFO 2024-05-31 17:15:38,378 views 19632 17604 Project data retrieved
+INFO 2024-05-31 17:15:38,548 views 19632 17604 Request data retrieved
+INFO 2024-05-31 17:15:38,722 views 19632 17604 Home view accessed
+INFO 2024-05-31 17:15:39,189 views 19632 17604 Request 20 rejected successfully
+INFO 2024-05-31 17:15:39,635 views 19632 17604 Employee form submitted and saved successfully
+WARNING 2024-05-31 17:15:39,635 views 19632 17604 Employee form submission failed: <ul class="errorlist"><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>email<ul class="errorlist"><li>Enter a valid email address.</li></ul></li><li>role<ul class="errorlist"><li>This field is required.</li></ul></li><li>skills<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+ERROR 2024-05-31 17:15:39,787 views 19632 17604 Employee project not found
+WARNING 2024-05-31 17:15:39,937 log 19632 17604 Method Not Allowed: /admin_dashboard/update_employee/94/
+INFO 2024-05-31 17:15:40,085 views 19632 17604 Skills updated for employee 97
+INFO 2024-05-31 22:14:48,731 autoreload 16288 15200 Watching for file changes with StatReloader
+INFO 2024-05-31 22:14:50,899 views 16288 18732 Home view accessed
+INFO 2024-05-31 22:14:50,979 basehttp 16288 18732 "GET / HTTP/1.1" 200 2647
+WARNING 2024-05-31 22:14:51,271 log 16288 18732 Not Found: /favicon.ico
+WARNING 2024-05-31 22:14:51,271 basehttp 16288 18732 "GET /favicon.ico HTTP/1.1" 404 5510
+INFO 2024-05-31 22:14:52,403 basehttp 16288 11168 "GET /login/ HTTP/1.1" 200 2000
+INFO 2024-05-31 22:14:58,771 views 16288 11168 User anushka_sohani logged in successfully
+INFO 2024-05-31 22:14:58,784 basehttp 16288 11168 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-05-31 22:14:58,918 basehttp 16288 11168 "GET /admin_dashboard/ HTTP/1.1" 200 29376
+INFO 2024-05-31 22:14:59,002 views 16288 22492 Employee data retrieved
+INFO 2024-05-31 22:14:59,002 views 16288 11168 Project data retrieved
+INFO 2024-05-31 22:14:59,002 basehttp 16288 22492 "GET /api/employees/ HTTP/1.1" 200 1166
+INFO 2024-05-31 22:14:59,002 basehttp 16288 11168 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-31 22:15:00,635 views 16288 22492 Employee data retrieved
+INFO 2024-05-31 22:15:00,649 basehttp 16288 22492 "GET /api/employees/ HTTP/1.1" 200 1166
+INFO 2024-05-31 22:15:01,161 views 16288 22492 Employee data retrieved
+INFO 2024-05-31 22:15:01,161 basehttp 16288 22492 "GET /api/employees/ HTTP/1.1" 200 1166
+INFO 2024-05-31 22:15:02,292 views 16288 15580 Request data retrieved
+INFO 2024-05-31 22:15:02,292 basehttp 16288 15580 "GET /api/requests/ HTTP/1.1" 200 442
+INFO 2024-05-31 22:15:04,150 views 16288 15580 Request data retrieved
+INFO 2024-05-31 22:15:04,150 basehttp 16288 15580 "GET /api/requests/ HTTP/1.1" 200 442
+INFO 2024-05-31 22:15:05,162 views 16288 15580 Project data retrieved
+INFO 2024-05-31 22:15:05,164 basehttp 16288 15580 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-31 22:15:05,533 views 16288 15580 Employee data retrieved
+INFO 2024-05-31 22:15:05,533 basehttp 16288 15580 "GET /api/employees/ HTTP/1.1" 200 1166
+INFO 2024-05-31 22:15:07,234 views 16288 15580 Project data retrieved
+INFO 2024-05-31 22:15:07,234 basehttp 16288 15580 "GET /api/projects/ HTTP/1.1" 200 1434
+INFO 2024-05-31 22:15:08,382 views 16288 15580 Request data retrieved
+INFO 2024-05-31 22:15:08,382 basehttp 16288 15580 "GET /api/requests/ HTTP/1.1" 200 442
+INFO 2024-05-31 22:15:20,686 basehttp 16288 13000 "GET /register HTTP/1.1" 301 0
+INFO 2024-05-31 22:15:20,743 basehttp 16288 13000 "GET /register/ HTTP/1.1" 200 4130

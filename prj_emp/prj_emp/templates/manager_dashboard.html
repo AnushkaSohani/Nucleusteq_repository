@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .button-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button-container button:hover {
+            background-color: #0056b3;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .section select,
+        .section input[type="text"],
+        .section textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .section button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: #28a745;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .section button:hover {
+            background-color: #218838;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        table th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+        #employeeTable,
+        #projectTable,
+        #requestTable {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Manager Dashboard</h1>
+        
+        <div class="button-container">
+            <button onclick="viewEmployees()">View Employees</button>
+            <button onclick="viewProjects()">View Projects</button>
+            <button onclick="showSection('filterEmployees')">Filter Employees</button>
+            <button onclick="toggleForm('requestEmployees')">Request Employees</button>
+            <button onclick="viewRequests()">View Request Status</button>
+        </div>
+
+        <!-- View Employees -->
+        <section id="viewEmployees">
+            <table id="employeeTable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Role</th>
+                        <th>Skills</th>
+                    </tr>
+                </thead>
+                <tbody id="employeeTableBody">
+                    <!-- Employee data will be populated here -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- View Projects -->
+        <section id="viewProjects">
+            <table id="projectTable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Project Manager</th>
+                        <th>Project Skills</th>
+                    </tr>
+                </thead>
+                <tbody id="projectTableBody">
+                    <!-- Project data will be populated here -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Filter Employees Section -->
+        <div id="filterEmployees" class="section" style="display:none;">
+            <label for="skills">Skills:</label>
+            <input type="text" id="skills" name="skills">
+            <label for="unassigned">Unassigned:</label>
+            <input type="checkbox" id="unassigned" name="unassigned">
+            <button onclick="filterEmployees()">Filter</button>
+        </div>
+
+        <!-- Request Employees Section -->
+        <div>
+            <form id="requestEmployees" action="{% url 'request_employees' %}" method="post" style="display: none;">
+                {% csrf_token %}
+                {{ form.as_p }}
+                {% for employee in employees %}
+                    <input type="checkbox" name="selected_employees" value="{{ employee.id }}">
+                    {{ employee.name }}<br>
+                {% endfor %}
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <section id="viewRequests">
+            <table id="requestTable">
+                <thead>
+                    <tr>
+                        <th>Req ID</th>
+                        <th>Manager ID</th>
+                        <th>Project ID</th>
+                        <th>Skills</th>
+                        <th>Status</th>
+                        <th>Employee IDs</th>
+                    </tr>
+                </thead>
+                <tbody id="requestTableBody">
+                    <!-- Request data will be populated here -->
+                </tbody>
+            </table>
+        </section>
+        
+    </div>
+
+    <script>
+        function toggleForm(formId) {
+            var form = document.getElementById(formId);
+            if (form.style.display === "none") {
+                form.style.display = "block";
+            } else {
+                form.style.display = "none";
+            }
+            if (formId === 'requestEmployees') {
+            document.getElementById('employeeTable').style.display = 'none';
+            document.getElementById('projectTable').style.display = 'none';
+            document.getElementById('filterEmployees').style.display = 'none';
+            document.getElementById('requestTable').style.display = 'none';
+            }
+            if (formId === 'filterEmployees') {
+            document.getElementById('requestEmployees').style.display = 'none';
+            document.getElementById('requestTable').style.display = 'none';
+            }
+
+        }
+        
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = section.id === sectionId ? 'block' : 'none';
+            });
+
+            document.getElementById('employeeTable').style.display = 'none';
+            document.getElementById('projectTable').style.display = 'none';
+            
+        }
+
+        function viewEmployees() {
+            document.getElementById('employeeTable').style.display = 'block';
+            document.getElementById('projectTable').style.display = 'none';
+            document.getElementById('filterEmployees').style.display = 'none';
+            document.getElementById('requestEmployees').style.display = 'none';
+            document.getElementById('requestTable').style.display = 'none';
+
+            var tableBody = document.getElementById('employeeTableBody');
+
+            fetch('/api/employees/')
+                .then(response => response.json())
+                .then(data => {
+                    tableBody.innerHTML = ''; 
+
+                    data.forEach(employee => {
+                        var row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${employee.id}</td>
+                            <td>${employee.name}</td>
+                            <td>${employee.email}</td>
+                            <td>${employee.phone}</td>
+                            <td>${employee.role}</td>
+                            <td>${employee.skills}</td>
+                        `;
+                        tableBody.appendChild(row);
+                    });
+                })
+                .catch(error => console.error('Error fetching employee data:', error));
+        }
+
+        function viewProjects() {
+            document.getElementById('projectTable').style.display = 'block';
+            document.getElementById('employeeTable').style.display = 'none';
+            document.getElementById('filterEmployees').style.display = 'none';
+            document.getElementById('requestEmployees').style.display = 'none';
+            document.getElementById('requestTable').style.display = 'none';
+
+            var tableBody = document.getElementById('projectTableBody');
+
+            fetch('/api/projects/')
+                .then(response => response.json())
+                .then(data => {
+                    tableBody.innerHTML = '';
+
+                    data.forEach(project => {
+                        var row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${project.id}</td>
+                            <td>${project.name}</td>
+                            <td>${project.description}</td>
+                            <td>${project.start_date}</td>
+                            <td>${project.end_date}</td>
+                            <td>${project.project_manager}</td>
+                            <td>${project.project_skills}</td>
+                        `;
+                        tableBody.appendChild(row);
+                    });
+                })
+                .catch(error => console.error('Error fetching project data:', error));
+        }
+        function filterEmployees() {
+            var skills = document.getElementById('skills').value;
+            var unassigned = document.getElementById('unassigned').checked;
+
+
+            var url = `/api/filter_employees/?skills=${skills}&unassigned=${unassigned}`;
+
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    var tableBody = document.getElementById('employeeTableBody');
+                    tableBody.innerHTML = ''; 
+
+                    data.forEach(employee => {
+                        var row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${employee.id}</td>
+                            <td>${employee.name}</td>
+                            <td>${employee.email}</td>
+                            <td>${employee.phone}</td>
+                            <td>${employee.role}</td>
+                            <td>${employee.skills}</td>
+                        `;
+                        tableBody.appendChild(row);
+                    });
+
+                    document.getElementById('employeeTable').style.display = 'block';
+                })
+                .catch(error => console.error('Error filtering employees:', error));
+        }
+        document.getElementById('requestEmployeesButton').addEventListener('click', function(event) {
+            toggleForm('requestEmployees');
+            document.getElementById('filterEmployees').style.display = 'none';
+        });
+        function viewRequests() {
+            document.getElementById('requestTable').style.display = 'block';
+            document.getElementById('employeeTable').style.display = 'none';
+            document.getElementById('projectTable').style.display = 'none';
+            document.getElementById('filterEmployees').style.display = 'none';
+            document.getElementById('requestEmployees').style.display = 'none';
+            var tableBody = document.getElementById("requestTableBody");
+
+            fetch('/api/requests/')
+                .then(response => response.json())
+                .then(data => {
+                    tableBody.innerHTML = '';
+
+                    data.forEach(request => {
+                        var row = document.createElement("tr");
+                        row.innerHTML = `
+                            <td>${request.id}</td>
+                            <td>${request.manager_id}</td>
+                            <td>${request.project_id}</td>
+                            <td>${request.skills}</td>
+                            <td>${request.status}</td>
+                            <td>${request.employee_ids.join(', ')}</td>
+                        `;
+                        tableBody.appendChild(row);
+                    });
+                })
+                .catch(error => console.error('Error fetching request data:', error));
+        }
+        
+    </script>
+</body>
+</html>

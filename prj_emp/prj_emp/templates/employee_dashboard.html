@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .button-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin: 0 5px;
+        }
+        .button-container button:hover {
+            background-color: #0056b3;
+        }
+        .section {
+            margin-bottom: 20px;
+            display: none; 
+        }
+        .section label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .section select,
+        .section input[type="text"],
+        .section textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .section button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: #28a745;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .section button:hover {
+            background-color: #218838;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        table th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+        /* #employeeTable{
+            display: none;
+        } */
+        #projectInfo {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Dashboard</h1>
+        
+        <div class="button-container">
+            <button onclick="viewEmployees()">View Employees</button>
+            <button onclick="toggleForm('updateEmployee')">Update Skills</button>
+            <button onclick="toggleForm('viewInfo')">View Information</button> 
+        </div>
+
+        <!-- View Employees -->
+        <section id="viewEmployees" class="section">
+            <table id="employeeTable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Role</th>
+                        <th>Skills</th>
+                    </tr>
+                </thead>
+                <tbody id="employeeTableBody">
+                    <!-- Employee data will be populated here -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Update Employee Skills -->
+        <section id="updateEmployee" class="section">
+            <form id="updateEmployeeForm" method="POST">
+                {% csrf_token %}
+                <label for="employeeId">Select Employee to Update:</label>
+                <select name="employeeId" id="updateEmployeeSelect" onchange="fetchEmployeeDetails(this.value)">
+                    <option value="">Select Employee</option>
+                    {% for employee in employees %}
+                        <option value="{{ employee.id }}">{{ employee.id }} - {{ employee.name }}</option>
+                    {% endfor %}
+                </select>
+                <div id="updateEmployeeFields">
+                    <label for="skills">Skills:</label>
+                    <textarea name="skills" id="skills" rows="6" cols="40" required></textarea>
+                </div>
+                <button type="button" onclick="updateEmployee()">Update Employee</button>
+            </form>
+        </section>
+
+        <!-- View Project Information -->
+        <section id="viewInfo" class="section">
+            <form id="viewInfoForm" method="GET">
+                <label for="employeeId">Enter Employee ID:</label>
+                <input type="text" id="employeeIdInput" required>
+                <button type="button" onclick="viewProjectInfo()">View Project Information</button>
+            </form>
+        </section>
+
+        <!-- Project Information Display -->
+        <section id="projectInfo" class="section">
+            <h2>Project Information</h2>
+            <p><strong>Project ID:</strong> <span id="projectId"></span></p>
+            <p><strong>Project Name:</strong> <span id="projectName"></span></p>
+            <p><strong>Project Manager:</strong> <span id="projectManager"></span></p>
+        </section>
+    </div>
+
+    <script>
+        function toggleForm(sectionId) {
+            const section = document.getElementById(sectionId);
+            const displayStyle = section.style.display;
+
+            const allSections = document.querySelectorAll('.section');
+            allSections.forEach(sec => sec.style.display = 'none');
+
+            if (displayStyle === 'none' || displayStyle === '') {
+                section.style.display = 'block';
+            } else {
+                section.style.display = 'none';
+            }
+
+            if (sectionId === 'viewEmployees' && section.style.display === 'block') {
+                viewEmployees();
+            }
+        }
+
+        function viewEmployees() {
+            document.getElementById('viewEmployees').style.display = 'block';
+
+            var tableBody = document.getElementById('employeeTableBody');
+
+            fetch('/api/employees/')
+                .then(response => response.json())
+                .then(data => {
+                    tableBody.innerHTML = ''; 
+
+                    data.forEach(employee => {
+                        var row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${employee.id}</td>
+                            <td>${employee.name}</td>
+                            <td>${employee.email}</td>
+                            <td>${employee.phone}</td>
+                            <td>${employee.role}</td>
+                            <td>${employee.skills}</td>
+                        `;
+                        tableBody.appendChild(row);
+                    });
+                })
+                .catch(error => console.error('Error fetching employee data:', error));
+        }
+
+        function fetchEmployeeDetails(employeeId) {
+            if (!employeeId) return;
+
+            fetch(`/get_employee_skills/${employeeId}/`)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("skills").value = data.skills;
+                })
+                .catch(error => console.error("Error fetching employee details:", error));
+        }
+
+        function updateEmployee() {
+            const employeeId = document.getElementById("updateEmployeeSelect").value;
+            const skills = document.getElementById("skills").value;
+
+            if (!employeeId) {
+                alert("Please select an employee to update.");
+                return;
+            }
+
+            fetch(`/admin_dashboard/update_skills/${employeeId}/`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value,
+                },
+                body: JSON.stringify({ skills }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.message === 'Employee skills updated successfully') {
+                    alert(data.message);
+                    console.log('Employee details updated successfully');
+                } else {
+                    alert(data.message);
+                    console.error("Form errors:", data.errors);
+                }
+            })
+            .catch(error => {
+                console.error("Error updating employee details:", error);
+                alert("An error occurred while updating employee details.");
+            });
+        }
+
+        function viewProjectInfo() {
+            const employeeId = document.getElementById("employeeIdInput").value;
+
+            if (!employeeId) {
+                alert("Please enter an employee ID.");
+                return;
+            }
+
+            fetch(`/get_project_info/${employeeId}/`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        alert(data.error);
+                        document.getElementById("projectInfo").style.display = 'none';
+                    } else {
+                        document.getElementById("projectId").textContent = data.project_id;
+                        document.getElementById("projectName").textContent = data.project_name;
+                        document.getElementById("projectManager").textContent = data.project_manager;
+                        document.getElementById("projectInfo").style.display = 'block';
+                    }
+                })
+                .catch(error => console.error("Error fetching project info:", error));
+        }
+    </script>
+</body>
+</html>
